@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : Chouhib-Forster
+- PRÉNOM : Yanis
+- GROUPE : B2
 - URL du site :
 - URL FIGMA :
