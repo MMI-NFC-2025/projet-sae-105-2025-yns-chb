@@ -21,23 +21,35 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/style.css" />
 </head>
 
 <body>
     <header>
-        <a href="/en/homepage.html">
-            <img src="/assets/icons/Logo.svg" alt="Logo">
-        </a>
-        <a href="/en/homepage.html">
-            <img src="/assets/icons/Empreinte.svg" alt="Empreinte">
-        </a>
-        <a href="/fr/film.html">
-            <img src="/assets/icons/langue_fr.svg" alt="French Language">
-        </a>
-        <a href="/assets/icons/Menu hamvurger.svg">
-            <img src="/assets/icons/Menu hamvurger.svg" alt="Menu">
-        </a>
-        <nav>
+        <div class="header__brand">
+            <a href="/en/homepage.html">
+                <img src="/assets/icons/Logo.svg" alt="Logo">
+            </a>
+            <a href="/en/homepage.html">
+                <img src="/assets/icons/Empreinte.svg" alt="Empreinte">
+            </a>
+        </div>
+
+        <div class="header__controls">
+            <div class="header__lang">
+                <a href="/fr/film.html" class="header__lang-btn">
+                    En
+                </a>
+            </div>
+
+            <button class="header__menu-btn" aria-label="Menu" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <nav id="mainNav">
             <ul>
                 <li><a href="/en/homepage.html">Home</a></li>
                 <li><a href="/en/Mary_anning_en.html">Mary Anning</a></li>

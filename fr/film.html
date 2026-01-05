@@ -21,23 +21,35 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/style.css" />
 </head>
 
 <body>
     <header>
-        <a href="/fr/index.html">
-            <img src="/assets/icons/Logo.svg" alt="Logo">
-        </a>
-        <a href="/fr/index.html">
-            <img src="/assets/icons/Empreinte.svg" alt="Empreinte">
-        </a>
-        <a href="/en/moovie.html">
-            <img src="/assets/icons/langue_en.svg" alt="English Language">
-        </a>
-        <a href="/assets/icons/Menu hamvurger.svg">
-            <img src="/assets/icons/Menu hamvurger.svg" alt="Menu">
-        </a>
-        <nav>
+        <div class="header__brand">
+            <a href="/fr/index.html">
+                <img src="/assets/icons/Logo.svg" alt="Logo">
+            </a>
+            <a href="/fr/index.html">
+                <img src="/assets/icons/Empreinte.svg" alt="Empreinte">
+            </a>
+        </div>
+
+        <div class="header__controls">
+            <div class="header__lang">
+                <a href="/en/moovie.html" class="header__lang-btn">
+                    Fr
+                </a>
+            </div>
+
+            <button class="header__menu-btn" aria-label="Menu" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <nav id="mainNav">
             <ul>
                 <li><a href="/fr/index.html">Accueil</a></li>
                 <li><a href="/fr/Mary_Anning.html">Mary Anning</a></li>
@@ -83,13 +95,18 @@
 
                 <h3 class="movies__section-title">Synopsis</h3>
                 <p class="movies__text">Sorti en 2015 et réalisé par Colin Trevorrow, Jurassic World nous replonge sur
-                    l'île d'Isla Nublar, vingt-deux ans après les événements de Jurassic Park. Un immense parc d'attractions, peuplé de dinosaures ouvre ses
+                    l'île d'Isla Nublar, vingt-deux ans après les événements de Jurassic Park. Un immense parc
+                    d'attractions, peuplé de dinosaures ouvre ses
                     portes au public sous le
                     nom de Jurassic World. Claire Dearing est la directrice des opérations de l'île. Pour attirer plus
-                    de visiteurs, son équipe décide de créer un nouveau dinosaure hybride : l'Indominus rex, une créature intelligente et
-                    redoutable. Mais l'expérience tourne au désastre lorsque le monstre s'échappe de son enclos, semant panique et destruction
-                    sur l'île. Face à cette crise, Claire se tourne vers Owen Grady, un dresseur de vélociraptors, pour l'aider à
-                    stopper la créature. Ensemble, ils vont devoir faire preuve de courage et de réflexion pour sauver les visiteurs et
+                    de visiteurs, son équipe décide de créer un nouveau dinosaure hybride : l'Indominus rex, une
+                    créature intelligente et
+                    redoutable. Mais l'expérience tourne au désastre lorsque le monstre s'échappe de son enclos, semant
+                    panique et destruction
+                    sur l'île. Face à cette crise, Claire se tourne vers Owen Grady, un dresseur de vélociraptors, pour
+                    l'aider à
+                    stopper la créature. Ensemble, ils vont devoir faire preuve de courage et de réflexion pour sauver
+                    les visiteurs et
                     reprendre le contrôle du parc.</p>
             </section>
 

@@ -11,24 +11,36 @@
     <link rel="shortcut icon" href="/assets/icons/Logo.svg" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/Logo.svg" />
     <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="/src/css/style.css" />
 
 </head>
 
 <body>
     <header>
-        <a href="/fr/index.html">
-            <img src="/assets/icons/Logo.svg" alt="Logo">
-        </a>
-        <a href="/fr/index.html">
-            <img src="/assets/icons/Empreinte.svg" alt="Empreinte">
-        </a>
-        <a href="/en/contact_en.html">
-            <img src="/assets/icons/langue_en.svg" alt="English Language">
-        </a>
-        <a href="/assets/icons/Menu hamvurger.svg">
-            <img src="/assets/icons/Menu hamvurger.svg" alt="Menu">
-        </a>
-        <nav>
+        <div class="header__brand">
+            <a href="/fr/index.html">
+                <img src="/assets/icons/Logo.svg" alt="Logo">
+            </a>
+            <a href="/fr/index.html">
+                <img src="/assets/icons/Empreinte.svg" alt="Empreinte">
+            </a>
+        </div>
+
+        <div class="header__controls">
+            <div class="header__lang">
+                <a href="/en/contact_en.html" class="header__lang-btn">
+                    Fr
+                </a>
+            </div>
+
+            <button class="header__menu-btn" aria-label="Menu" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <nav id="mainNav">
             <ul>
                 <li><a href="/fr/index.html">Accueil</a></li>
                 <li><a href="/fr/Mary_Anning.html">Mary Anning</a></li>

@@ -21,23 +21,35 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/style.css" />
 </head>
 
 <body>
     <header>
-        <a href="/fr/index.html">
-            <img src="/assets/icons/Logo.svg" alt="Logo">
-        </a>
-        <a href="/fr/index.html">
-            <img src="/assets/icons/Empreinte.svg" alt="Empreinte">
-        </a>
-        <a href="/en/women_and_knowledge.html">
-            <img src="/assets/icons/langue_en.svg" alt="Englisgh Language">
-        </a>
-        <a href="/assets/icons/Menu hamvurger.svg">
-            <img src="/assets/icons/Menu hamvurger.svg" alt="Menu">
-        </a>
-        <nav>
+        <div class="header__brand">
+            <a href="/fr/index.html">
+                <img src="/assets/icons/Logo.svg" alt="Logo">
+            </a>
+            <a href="/fr/index.html">
+                <img src="/assets/icons/Empreinte.svg" alt="Empreinte">
+            </a>
+        </div>
+
+        <div class="header__controls">
+            <div class="header__lang">
+                <a href="/en/women_and_knowledge.html" class="header__lang-btn">
+                    Fr
+                </a>
+            </div>
+
+            <button class="header__menu-btn" aria-label="Menu" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <nav id="mainNav">
             <ul>
                 <li><a href="/fr/index.html">Accueil</a></li>
                 <li><a href="/fr/Mary_Anning.html">Mary Anning</a></li>
@@ -82,8 +94,10 @@
                 <h1 class="women-knowledge__title">Femmes et savoir raconté</h1>
                 <p class="women-knowledge__meta">Par Yanis Chouhib, publié le 22 octobre 2025</p>
                 <p class="women-knowledge__intro">De la radioactivité à la double hélice de l'ADN, jusqu'aux premiers
-                    algorithmes informatiques, Marie Curie Rosalind Franklin et Ada Lovelace ont chacune transformé notre compréhension du monde. À travers livres et
-                    œuvres qui leur rendent hommage, leurs parcours révèlent la force, la rigueur et la vision de femmes longtemps
+                    algorithmes informatiques, Marie Curie Rosalind Franklin et Ada Lovelace ont chacune transformé
+                    notre compréhension du monde. À travers livres et
+                    œuvres qui leur rendent hommage, leurs parcours révèlent la force, la rigueur et la vision de femmes
+                    longtemps
                     éclipsées par l'histoire, mais dont l'héritage continue d'inspirer la science moderne.</p>
             </header>
 
@@ -92,14 +106,20 @@
                 <p class="women-knowledge__scientist-text">Marie Curie (1867-1934) est une physicienne et chimiste
                     franco-polonaise, pionnière de la radioactivité et première
                     femme à recevoir un Prix Nobel, qu'elle obtient à deux reprises, en physique et en chimie. Son
-                    travail a permis la découverte du polonium et du radium et a ouvert la voie à la radiothérapie. Sa vie exceptionnelle
-                    est racontée dans plusieurs ouvrages : « L'incroyable destin de Marie Curie qui découvrit la radioactivité » de
-                    Pascale Hédelin décrit son parcours depuis son enfance en Pologne jusqu'à ses recherches révolutionnaires et son combat pour la
-                    reconnaissance scientifique. « Marie Curie, la scientifique aux deux prix Nobels » de Céka retrace son quotidien de
+                    travail a permis la découverte du polonium et du radium et a ouvert la voie à la radiothérapie. Sa
+                    vie exceptionnelle
+                    est racontée dans plusieurs ouvrages : « L'incroyable destin de Marie Curie qui découvrit la
+                    radioactivité » de
+                    Pascale Hédelin décrit son parcours depuis son enfance en Pologne jusqu'à ses recherches
+                    révolutionnaires et son combat pour la
+                    reconnaissance scientifique. « Marie Curie, la scientifique aux deux prix Nobels » de Céka retrace
+                    son quotidien de
                     chercheuse et les obstacles liés à son genre. Pour le jeune public,
                     « Marie Curie : la femme des sciences» par Sylvie Baussier rend son histoire accessible et
-                    inspirante, soulignant son courage, sa curiosité et son impact durable sur la science et la société. Ces œuvres montrent
-                    comment Marie Curie incarne à la fois le génie scientifique et la persévérance face aux préjugés.</p>
+                    inspirante, soulignant son courage, sa curiosité et son impact durable sur la science et la société.
+                    Ces œuvres montrent
+                    comment Marie Curie incarne à la fois le génie scientifique et la persévérance face aux préjugés.
+                </p>
 
                 <div class="women-knowledge__books-gallery">
                     <figure>
@@ -140,12 +160,16 @@
                 <p class="women-knowledge__scientist-text">Rosalind Franklin (1920-1958) est une biologiste et
                     cristallographe britannique dont les recherchesont
                     étédéterminantes pour la découverte de la structure en double hélice de l'ADN. Malgré son rôle
-                    central, elle a souvent été sous-estimée dans ses contributions. Sa biographie « Rosalind Franklin : The Dark Lady of DNA » de
+                    central, elle a souvent été sous-estimée dans ses contributions. Sa biographie « Rosalind Franklin :
+                    The Dark Lady of DNA » de
                     Brenda Maddox explore à la fois sa carrière scientifique, sa personnalité et les injustices qu'elle
-                    a subies dans le monde académique masculinde l'époque. Elle est également mise en avant dans la pièce de théâtre d'Anna
+                    a subies dans le monde académique masculinde l'époque. Elle est également mise en avant dans la
+                    pièce de théâtre d'Anna
                     Ziegler « Photograph 51 »,
-                    qui dramatise ses luttes professionnelles et met en lumière son talent et sa ténacité. Ces œuvres présentent
-                    Rosalind Franklin comme un symbole de l'excellence scientifique féminine et de la lutte pour la reconnaissance et l'égalité,
+                    qui dramatise ses luttes professionnelles et met en lumière son talent et sa ténacité. Ces œuvres
+                    présentent
+                    Rosalind Franklin comme un symbole de l'excellence scientifique féminine et de la lutte pour la
+                    reconnaissance et l'égalité,
                     inspirant de nombreuses jeunes scientifiques à poursuivre leurs ambitions malgré les obstacles.</p>
 
                 <div class="women-knowledge__books-gallery">
@@ -172,11 +196,16 @@
                 <h3 class="women-knowledge__scientist-name">Ada Lovelace</h3>
                 <p class="women-knowledge__scientist-text">Ada Lovelace (1815-1852), fille du poète Lord Byron, est
                     considérée comme la première programmeuse informatique pour son
-                    travail sur la machine analytique de Charles Babbage. Elle a compris le potentiel de cette machine au-delà
-                    du simple calcul et a écrit le premier algorithme destiné à être exécuté par une machine, ce qui fait d'elle
-                    une figure clé de l'informatique moderne. Plusieurs ouvrages relatent sa vie et son génie : « Ada's Algorithm » de
-                    James Essinger raconte comment sa curiosité et son esprit mathématique ont permis des avancées fondamentales pour la
-                    programmation. « Ada ou la beauté des nombres» par Catherine Dufour explore ses contributions scientifiques et son héritage intellectuel.Ces
+                    travail sur la machine analytique de Charles Babbage. Elle a compris le potentiel de cette machine
+                    au-delà
+                    du simple calcul et a écrit le premier algorithme destiné à être exécuté par une machine, ce qui
+                    fait d'elle
+                    une figure clé de l'informatique moderne. Plusieurs ouvrages relatent sa vie et son génie : « Ada's
+                    Algorithm » de
+                    James Essinger raconte comment sa curiosité et son esprit mathématique ont permis des avancées
+                    fondamentales pour la
+                    programmation. « Ada ou la beauté des nombres» par Catherine Dufour explore ses contributions
+                    scientifiques et son héritage intellectuel.Ces
                     livres célèbrent son rôle visionnaire et sa capacité à transformer les idées abstraites en
                     innovations concrètes, faisant d'elle une source d'inspiration pour les générations futures.</p>
 

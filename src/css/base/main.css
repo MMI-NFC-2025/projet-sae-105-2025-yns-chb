@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    background-color: var(--blanc);
+    color: var(--noir);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+h1 {
+    font-weight: 600;
+    letter-spacing: -0.05rem;
+    color: var(--noir);
+    font-size: var(--h1);
+    list-style: none !important;
+    list-style-type: none !important;
+}
+    
+h2 {
+    letter-spacing: -0.04rem;
+    color: var(--noir);
+    font-size: var(--h2);
+}
+    
+h3 {
+    letter-spacing: -0.03rem;
+    color: var(--noir);
+    font-size: var(--h3);
+}
+
+button,
+input,
+select,
+textarea {
+    appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+
+
+/* Pour rendre invisible mais laisser accessible */
+.u-sr-only {
+    position: absolute !important;
+    inline-size: 1px;
+    /* width logique */
+    block-size: 1px;
+    /* height logique */
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    /* évite le retour à la ligne */
+    border: 0;
+
+    /* Pour rendre invisible et non accessible */
+    clip-path: inset(50%);
+}
+
+.u-noscroll {
+    overflow: hidden;
+}
+
+
+
+header ul,
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    padding: 0;
+    margin: 0;
+}
+
