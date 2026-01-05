@@ -1,0 +1,168 @@
+/* Menu mobile - inspiré du cours */
+#mainNav {
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    color: var(--noir);
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: var(--beige);
+    visibility: visible;
+    transition: visibility 0.3s ease-in-out;
+}
+
+#mainNav::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 998;
+    background-color: var(--beige);
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Quand le menu est fermé */
+#mainNav:not(.active) {
+    visibility: hidden;
+}
+
+#mainNav:not(.active)::before {
+    transform: translateY(-100vh);
+    transition-delay: 0.25s;
+}
+
+/* Liste du menu */
+#mainNav ul {
+    position: relative;
+    z-index: 1000;
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 8rem;
+}
+
+#mainNav ul li {
+    border-bottom: none;
+    padding-bottom: 0;
+    color: var(--noir);
+}
+
+#mainNav ul li a {
+    color: var(--noir);
+    text-decoration: none;
+    font-family: var(--inria);
+    font-size: var(--h3);
+    font-weight: 400;
+    display: block;
+    padding: 0.5rem 0;
+    transition: all 0.2s ease;
+    transform: translateY(0);
+    opacity: 1;
+
+}
+
+/* Animation en cascade pour chaque élément du menu */
+#mainNav ul li:nth-child(1) {
+    --i: 1;
+}
+
+#mainNav ul li:nth-child(2) {
+    --i: 2;
+}
+
+#mainNav ul li:nth-child(3) {
+    --i: 3;
+}
+
+#mainNav ul li:nth-child(4) {
+    --i: 4;
+}
+
+#mainNav ul li:nth-child(5) {
+    --i: 5;
+}
+
+#mainNav ul li:nth-child(6) {
+    --i: 6;
+}
+
+#mainNav ul li:nth-child(7) {
+    --i: 7;
+}
+
+#mainNav ul li:nth-child(8) {
+    --i: 8;
+}
+
+#mainNav ul li:nth-child(9) {
+    --i: 9;
+}
+
+#mainNav ul li:nth-child(10) {
+    --i: 10;
+}
+
+#mainNav ul li a {
+    transition-delay: calc(var(--i) * 0.05s);
+}
+
+/* Quand le menu est fermé, les items disparaissent */
+#mainNav:not(.active) ul li a {
+    transform: translateY(-20px);
+    opacity: 0;
+}
+
+#mainNav ul li a:hover {
+    color: var(--gris);
+}
+
+/* Logo et titre qui se transforment */
+.header__brand {
+    transition: transform 0.3s ease;
+    transform-origin: top left;
+    position: relative;
+    z-index: 1001;
+}
+
+/* Hamburger menu button */
+.header__menu-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 40px;
+    position: relative;
+    z-index: 1001;
+    margin-top: 25px;
+}
+
+.header__menu-btn span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: var(--noir);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+
+
+/* Classe utilitaire pour empêcher le scroll */
+.u-noscroll {
+    overflow: hidden;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+    #mainNav {
+        display: none;
+    }
+}
