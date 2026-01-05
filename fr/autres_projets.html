@@ -11,6 +11,16 @@
     <link rel="shortcut icon" href="/assets/icons/Logo.svg" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/Logo.svg" />
     <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -45,96 +55,131 @@
     </header>
 
     <main>
-        <h1>Autres projets</h1>
+        <article class="projects">
+            <header class="projects__header">
+                <h1 class="projects__title">Autres projets</h1>
+            </header>
 
-        <h3>Radiance</h3>
-        <a href="/assets/favicons/radiance.svg">
-            <img src="/assets/favicons/radiance.svg" alt="Radiance">
-        </a>
-        <p>Alex Ringenbach</p>
+            <section class="projects__grid">
+                <div class="projects__card">
+                    <h3 class="projects__card-title">Radiance</h3>
+                    <a href="/assets/favicons/radiance.svg" class="projects__card-link">
+                        <img src="/assets/favicons/radiance.svg" alt="Radiance" class="projects__card-image">
+                    </a>
+                    <p class="projects__card-author">Alex Ringenbach</p>
+                </div>
 
-        <h3>Jocelyn Bell</h3>
-        <a href="/assets/favicons/logo_jocelyn_bell.svg">
-            <img src="/assets/favicons/logo_jocelyn_bell.svg" alt="Jocelyn Bell">
-        </a>
-        <p>Estelle Coulon</p>
+                <div class="projects__card">
+                    <h3 class="projects__card-title">Jocelyn Bell</h3>
+                    <a href="/assets/favicons/logo_jocelyn_bell.svg" class="projects__card-link">
+                        <img src="/assets/favicons/logo_jocelyn_bell.svg" alt="Jocelyn Bell"
+                            class="projects__card-image">
+                    </a>
+                    <p class="projects__card-author">Estelle Coulon</p>
+                </div>
 
-        <h3>Empreintes féminines dans la science</h3>
-        <a href="/assets/favicons/empreintes_féminines.svg">
-            <img src="/assets/favicons/empreintes_féminines.svg" alt="Empreintes féminines dans la science">
-        </a>
-        <p>Maman Thilor Sambe</p>
+                <div class="projects__card">
+                    <h3 class="projects__card-title">Empreintes féminines dans la science</h3>
+                    <a href="/assets/favicons/empreintes_féminines.svg" class="projects__card-link">
+                        <img src="/assets/favicons/empreintes_féminines.svg" alt="Empreintes féminines dans la science"
+                            class="projects__card-image">
+                    </a>
+                    <p class="projects__card-author">Maman Thilor Sambe</p>
+                </div>
 
-        <h3>Étoiles Oubliées</h3>
-        <a href="/assets/favicons/etoile_oubliées.svg">
-            <img src="/assets/favicons/etoile_oubliées.svg" alt="Étoiles Oubliées">
-        </a>
-        <p>Lilian Maitre</p>
+                <div class="projects__card">
+                    <h3 class="projects__card-title">Étoiles Oubliées</h3>
+                    <a href="/assets/favicons/etoile_oubliées.svg" class="projects__card-link">
+                        <img src="/assets/favicons/etoile_oubliées.svg" alt="Étoiles Oubliées"
+                            class="projects__card-image">
+                    </a>
+                    <p class="projects__card-author">Lilian Maitre</p>
+                </div>
 
-        <h3>ADA</h3>
-        <a href="/assets/favicons/ADA.svg">
-            <img src="/assets/favicons/ADA.svg" alt="ADA">
-        </a>
-        <p>Virgile Esnaux</p>
+                <div class="projects__card">
+                    <h3 class="projects__card-title">ADA</h3>
+                    <a href="/assets/favicons/ADA.svg" class="projects__card-link">
+                        <img src="/assets/favicons/ADA.svg" alt="ADA" class="projects__card-image">
+                    </a>
+                    <p class="projects__card-author">Virgile Esnaux</p>
+                </div>
 
-        <h3>Aqita</h3>
-        <a href="/assets/favicons/aquita.svg">
-            <img src="/assets/favicons/aquita.svg" alt="Aqita">
-        </a>
-        <p>Melvyn Philippon</p>
+                <div class="projects__card">
+                    <h3 class="projects__card-title">Aqita</h3>
+                    <a href="/assets/favicons/aquita.svg" class="projects__card-link">
+                        <img src="/assets/favicons/aquita.svg" alt="Aqita" class="projects__card-image">
+                    </a>
+                    <p class="projects__card-author">Melvyn Philippon</p>
+                </div>
 
-        <h3>Marie Meurdrac : l'essence d'une femme de science</h3>
-        <a href="/assets/favicons/marie_meudrac.svg">
-            <img src="/assets/favicons/marie_meudrac.svg" alt="Marie Meurdrac : l'essence d'une femme de science">
-        </a>
-        <p>Ines Sittler</p>
+                <div class="projects__card">
+                    <h3 class="projects__card-title">Marie Meurdrac : l'essence d'une femme de science</h3>
+                    <a href="/assets/favicons/marie_meudrac.svg" class="projects__card-link">
+                        <img src="/assets/favicons/marie_meudrac.svg"
+                            alt="Marie Meurdrac : l'essence d'une femme de science" class="projects__card-image">
+                    </a>
+                    <p class="projects__card-author">Ines Sittler</p>
+                </div>
 
-        <h3>Devlace</h3>
-        <a href="/assets/favicons/devlace.svg">
-            <img src="/assets/favicons/devlace.svg" alt="Devlace">
-        </a>
-        <p>Pierre Mouilleseaux lhuillier</p>
-
+                <div class="projects__card">
+                    <h3 class="projects__card-title">Devlace</h3>
+                    <a href="/assets/favicons/devlace.svg" class="projects__card-link">
+                        <img src="/assets/favicons/devlace.svg" alt="Devlace" class="projects__card-image">
+                    </a>
+                    <p class="projects__card-author">Pierre Mouilleseaux lhuillier</p>
+                </div>
+            </section>
+        </article>
     </main>
 
     <footer>
-        <a href="/assets/icons/Logo.svg">
-            <img src="/assets/icons/Logo.svg" alt="Logo">
-        </a>
-        <a href="/assets/icons/Empreinte.svg">
-            <img src="/assets/icons/Empreinte.svg" alt="Empreinte">
-        </a>
-        <p>MENU</p>
-        <ul>
-            <li><a href="/fr/index.html">ARTICLES</a></li>
-            <li><a href="/fr/contact.html">CONTACT</a></li>
-            <li><a href="/fr/a_propos.html">À PROPOS</a></li>
-            <li>AUTRES PROJETS</li>
+        <div class="footer-logo">
+            <a href="/assets/icons/Logo.svg">
+                <img src="/assets/icons/Logo.svg" alt="Logo">
+            </a>
+            <a href="/assets/icons/Empreinte.svg">
+                <img src="/assets/icons/Empreinte.svg" alt="Empreinte">
+            </a>
+        </div>
 
-        </ul>
+        <div class="footer-menu">
+            <p>MENU</p>
+            <ul>
+                <li><a href="/fr/index.html">ARTICLES</a></li>
+                <li><a href="/fr/contact.html">CONTACT</a></li>
+                <li><a href="/fr/a_propos.html">À PROPOS</a></li>
+                <li><a href="/fr/autres_projets.html">AUTRES PROJETS</a></li>
+            </ul>
+        </div>
 
-        <ul>
-            <li>CONTACT</li>
-            <li>YANIS CHOUHIB</li>
-            <li>GROUPE B2</li>
-            <li>YANIS.FORSTER@GMAIL.COM</li>
-            <li>4 PL. LUCIEN THARRADIN</li>
-            <li>25200 MONTBELIARD</li>
-            <li>03 81 99 47 34</li>
-        </ul>
+        <div class="footer-contact">
+            <ul>
+                <li>CONTACT</li>
+                <li>YANIS CHOUHIB</li>
+                <li>GROUPE B2</li>
+                <li>YANIS.FORSTER@GMAIL.COM</li>
+                <li>4 PL. LUCIEN THARRADIN</li>
+                <li>25200 MONTBELIARD</li>
+                <li>03 81 99 47 34</li>
+            </ul>
+        </div>
 
-        <a href="/assets/icons/Instagram.svg">
-            <img src="/assets/icons/Instagram.svg" alt="Instagram">
-        </a>
-        <a href="/assets/icons/tiktok.svg">
-            <img src="/assets/icons/tiktok.svg" alt="TikTok">
-        </a>
-        <a href="/assets/icons/facebook.svg">
-            <img src="/assets/icons/facebook.svg" alt="Facebook">
-        </a>
-        <p><a href="https://www.iut-nfc.univ-fcomte.fr/">SITE DE L'IUT MARIE ET LOUIS PASTEUR</a></p>
-        <p>Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département MMi de Montbéliard</p>
+        <div class="footer-social">
+            <a href="/assets/icons/Instagram.svg">
+                <img src="/assets/icons/Instagram.svg" alt="Instagram">
+            </a>
+            <a href="/assets/icons/tiktok.svg">
+                <img src="/assets/icons/tiktok.svg" alt="TikTok">
+            </a>
+            <a href="/assets/icons/facebook.svg">
+                <img src="/assets/icons/facebook.svg" alt="Facebook">
+            </a>
+        </div>
 
+        <div class="footer-info">
+            <p><a href="https://www.iut-nfc.univ-fcomte.fr/">SITE DE L'IUT MARIE ET LOUIS PASTEUR</a></p>
+            <p>Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département MMi de Montbéliard</p>
+        </div>
     </footer>
 
 </body>

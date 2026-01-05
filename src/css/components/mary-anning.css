@@ -1,0 +1,59 @@
+/* ==========================================================================
+   Composant Mary Anning - Page Mary Anning
+   ========================================================================== */
+
+.mary-anning {
+    /* Styles du conteneur principal */
+}
+
+.mary-anning__header {
+    /* Styles de l'en-tête */
+}
+
+.mary-anning__hero-link {
+    /* Styles du lien de l'image hero */
+}
+
+.mary-anning__hero-image {
+    /* Styles de l'image hero */
+}
+
+.mary-anning__title {
+    /* Styles du titre principal */
+}
+
+.mary-anning__meta {
+    /* Styles des métadonnées */
+}
+
+.mary-anning__intro {
+    /* Styles de l'introduction */
+}
+
+.mary-anning__biography {
+    /* Styles de la section biographie */
+}
+
+.mary-anning__text {
+    /* Styles des paragraphes de texte */
+}
+
+.mary-anning__other-title {
+    /* Styles du titre de la section autres scientifiques */
+}
+
+.mary-anning__other-scientists {
+    /* Styles du conteneur des autres scientifiques */
+}
+
+.mary-anning__scientist-item {
+    /* Styles des éléments scientifiques */
+}
+
+.mary-anning__scientist-name {
+    /* Styles des noms de scientifiques */
+}
+
+.mary-anning__scientist-bio {
+    /* Styles des biographies de scientifiques */
+}

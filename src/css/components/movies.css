@@ -1,0 +1,63 @@
+/* ==========================================================================
+   Composant Movies - Page Film
+   ========================================================================== */
+
+.movies {
+    /* Styles du conteneur principal */
+}
+
+.movies__header {
+    /* Styles de l'en-tête */
+}
+
+.movies__hero-link {
+    /* Styles du lien de l'image hero */
+}
+
+.movies__hero-image {
+    /* Styles de l'image hero */
+}
+
+.movies__title {
+    /* Styles du titre principal */
+}
+
+.movies__meta {
+    /* Styles des métadonnées */
+}
+
+.movies__intro {
+    /* Styles de l'introduction */
+}
+
+.movies__video-section {
+    /* Styles de la section vidéo */
+}
+
+.movies__film-section {
+    /* Styles des sections de film */
+}
+
+.movies__section-title {
+    /* Styles des titres de section */
+}
+
+.movies__text {
+    /* Styles des paragraphes de texte */
+}
+
+.movies__related-films {
+    /* Styles de la section films associés */
+}
+
+.movies__film-card {
+    /* Styles des cartes de film */
+}
+
+.movies__film-card-title {
+    /* Styles des titres de carte de film */
+}
+
+.movies__film-card-text {
+    /* Styles du texte de carte de film */
+}

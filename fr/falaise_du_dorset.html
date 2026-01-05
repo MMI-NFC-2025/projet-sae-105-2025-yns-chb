@@ -11,6 +11,16 @@
     <link rel="shortcut icon" href="/assets/icons/Logo.svg" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/Logo.svg" />
     <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -45,121 +55,161 @@
     </header>
 
     <main>
-        <a href="/assets/img/dorset_hero.avif">
-            <img src="/assets/img/dorset_hero.avif" alt="Falaise du Dorset">
-        </a>
-        <h1>Sous les falaises du Dorset</h1>
+        <article class="dorset">
+            <header class="dorset__header">
+                <a href="/assets/img/dorset_hero.avif" class="dorset__hero-link">
+                    <img src="/assets/img/dorset_hero.avif" alt="Falaise du Dorset" class="dorset__hero-image">
+                </a>
+                <h1 class="dorset__title">Sous les falaises du Dorset</h1>
+                <p class="dorset__meta">Par Yanis Chouhib, publié le 22 octobre 2025</p>
+                <p class="dorset__intro">À l'origine de découvertes décisives sur les reptiles marins fossiles, Mary
+                    Anning a révolutionné la
+                    science
+                    sans
+                    obtenir la reconnaissance qu'elle méritait. Ses travaux, souvent publiés sous d'autres noms,
+                    témoignent d'un
+                    génie
+                    longtemps invisibilisé.</p>
+            </header>
 
-        <p>Par Yanis Chouhib, publié le 22 octobre 2025</p>
+            <section class="dorset__dorset__fossil-section">
+                <h3 class="dorset__section-title">Découvertes de Mary Anning</h3>
+                <p class="dorset__text">Mary Anning a réalisé plusieurs découvertes majeures dans le domaine de la
+                    paléontologie au début du
+                    XIXᵉ
+                    siècle. À
+                    seulement 12 ans, elle découvre avec son frère sur les plages du Dorset le premier squelette complet
+                    d'ichtyosaure, un
+                    reptile marin. Mais la publication scientifique est alors signée par Henry De la Beche géologue
+                    britanique
+                    qui profite
+                    de ses observations sans la mentionner. En 1823, elle met au jour le premier spécimen complet de
+                    plésiosaure, présenté à
+                    la Geological Society de Londres, par le paléontologue britanique William Conybeare qui la relègue
+                    au
+                    rôle
+                    d'amatrice. En 1828, elle identifie un ptérodactyle fossilisé, premier spécimen découvert en dehors
+                    de
+                    l'Allemagne, mais
+                    la découverte est officialisée par William Buckland un paléontologue britanique. Elle découvre
+                    également
+                    des
+                    fossiles
+                    comme les bélemnites avec leur sac d'encre fossilisés, enrichissant la compréhension de la faune
+                    marine
+                    du
+                    Jurassique.
+                    Ces recherches se concentrent sur la côte jurassique du Dorset, région particulièrement riche en
+                    fossiles
+                    vieux de 201 à
+                    145 millions d'années. Chaque fossile est soigneusement extrait, préparé et étudié, fournissant des
+                    spécimens de qualité
+                    scientifique exceptionnelle.</p>
 
-        <p>À l'origine de découvertes décisives sur les reptiles marins fossiles, Mary Anning a révolutionné la science
-            sans
-            obtenir la reconnaissance qu'elle méritait. Ses travaux, souvent publiés sous d'autres noms, témoignent d'un
-            génie
-            longtemps invisibilisé.</p>
+                <div class="dorset__fossils-gallery">
+                    <figure>
+                        <a href="/assets/img/fossil_ichtyosaure.avif">
+                            <img src="/assets/img/fossil_ichtyosaure.avif" alt="Fossile d'Ichtyosaure" loading="lazy">
+                        </a>
+                        <figcaption>Fossile d'ichtyosaure découvert par Mary Anning en 1811</figcaption>
+                    </figure>
 
-        <h3>Découvertes de Mary Anning</h3>
-        <p>Mary Anning a réalisé plusieurs découvertes majeures dans le domaine de la paléontologie au début du XIXᵉ
-            siècle. À
-            seulement 12 ans, elle découvre avec son frère sur les plages du Dorset le premier squelette complet
-            d'ichtyosaure, un
-            reptile marin. Mais la publication scientifique est alors signée par Henry De la Beche géologue britanique
-            qui profite
-            de ses observations sans la mentionner. En 1823, elle met au jour le premier spécimen complet de
-            plésiosaure, présenté à
-            la Geological Society de Londres, par le paléontologue britanique William Conybeare qui la relègue au rôle
-            d'amatrice. En 1828, elle identifie un ptérodactyle fossilisé, premier spécimen découvert en dehors de
-            l'Allemagne, mais
-            la découverte est officialisée par William Buckland un paléontologue britanique. Elle découvre également des
-            fossiles
-            comme les bélemnites avec leur sac d'encre fossilisés, enrichissant la compréhension de la faune marine du
-            Jurassique.
-            Ces recherches se concentrent sur la côte jurassique du Dorset, région particulièrement riche en fossiles
-            vieux de 201 à
-            145 millions d'années. Chaque fossile est soigneusement extrait, préparé et étudié, fournissant des
-            spécimens de qualité
-            scientifique exceptionnelle.</p>
+                    <figure>
+                        <a href="/assets/img/fossile_plesiosaure.avif">
+                            <img src="/assets/img/fossile_plesiosaure.avif" alt="Fossile de Plésiosaure" loading="lazy">
+                        </a>
+                        <figcaption>Fossile de plésiosaure découvert par Mary Anning en 1823</figcaption>
+                    </figure>
 
-        <figure>
-            <a href="/assets/img/fossil_ichtyosaure.avif">
-                <img src="/assets/img/fossil_ichtyosaure.avif" alt="Fossile d'Ichtyosaure" loading="lazy">
-            </a>
-            <figcaption>Fossile d'ichtyosaure découvert par Mary Anning en 1811</figcaption>
-        </figure>
+                    <figure>
+                        <a href="/assets/img/fossile_ptérodactyle.avif">
+                            <img src="/assets/img/fossile_ptérodactyle.avif" alt="Fossile de Ptérodactyle"
+                                loading="lazy">
+                        </a>
+                        <figcaption>Fossile de ptérodactyle découvert par Mary Anning en 1828</figcaption>
+                    </figure>
+                </div>
+            </section>
 
-        <figure>
-            <a href="/assets/img/fossile_plesiosaure.avif">
-                <img src="/assets/img/fossile_plesiosaure.avif" alt="Fossile de Plésiosaure" loading="lazy">
-            </a>
-            <figcaption>Fossile de plésiosaure découvert par Mary Anning en 1823</figcaption>
-        </figure>
+            <section class="dorset__impact-section">
+                <h3 class="dorset__section-title">Effets dans le monde scientifique et culturel</h3>
+                <p class="dorset__text">Ces découvertes ont eu un impact considérable sur la science et la compréhension
+                    de l'histoire
+                    naturelle.
+                    Elles ont
+                    apporté des preuves solides de l'extinction d'espèces, remettant en cause la croyance en une
+                    création
+                    immuable des êtres
+                    vivants. Les fossiles ont soutenu les recherches de Georges Cuvier sur l'extinction des espèces et
+                    ont
+                    contribué à faire
+                    de la paléontologie une discipline scientifique rigoureuse. Ils ont également permis de mieux
+                    comprendre
+                    la
+                    diversité
+                    passée de la vie marine et ont préparé le terrain pour la théorie de l'évolution de Charles Darwin.
+                    Malgré
+                    la
+                    controverse et le scepticisme initial, ces découvertes ont progressivement transformé la perception
+                    scientifique et
+                    culturelle de l'histoire de la Terre. Aujourd'hui, elles continuent d'influencer la recherche et la
+                    muséologie,
+                    soulignant l'importance de l'observation minutieuse et de l'étude systématique des fossiles dans la
+                    compréhension de
+                    l'évolution des espèces et des écosystèmes anciens.</p>
+            </section>
 
-        <figure>
-            <a href="/assets/img/fossile_ptérodactyle.avif">
-                <img src="/assets/img/fossile_ptérodactyle.avif" alt="Fossile de Ptérodactyle" loading="lazy">
-            </a>
-            <figcaption>Fossile de ptérodactyle découvert par Mary Anning en 1828</figcaption>
-        </figure>
-
-        <h3>Effets dans le monde scientifique et culturel</h3>
-        <p>Ces découvertes ont eu un impact considérable sur la science et la compréhension de l'histoire naturelle.
-            Elles ont
-            apporté des preuves solides de l'extinction d'espèces, remettant en cause la croyance en une création
-            immuable des êtres
-            vivants. Les fossiles ont soutenu les recherches de Georges Cuvier sur l'extinction des espèces et ont
-            contribué à faire
-            de la paléontologie une discipline scientifique rigoureuse. Ils ont également permis de mieux comprendre la
-            diversité
-            passée de la vie marine et ont préparé le terrain pour la théorie de l'évolution de Charles Darwin. Malgré
-            la
-            controverse et le scepticisme initial, ces découvertes ont progressivement transformé la perception
-            scientifique et
-            culturelle de l'histoire de la Terre. Aujourd'hui, elles continuent d'influencer la recherche et la
-            muséologie,
-            soulignant l'importance de l'observation minutieuse et de l'étude systématique des fossiles dans la
-            compréhension de
-            l'évolution des espèces et des écosystèmes anciens.</p>
-
+        </article>
     </main>
 
     <footer>
-        <a href="/assets/icons/Logo.svg">
-            <img src="/assets/icons/Logo.svg" alt="Logo">
-        </a>
-        <a href="/assets/icons/Empreinte.svg">
-            <img src="/assets/icons/Empreinte.svg" alt="Empreinte">
-        </a>
-        <p>MENU</p>
-        <ul>
-            <li><a href="/fr/index.html">ARTICLES</a></li>
-            <li><a href="/fr/contact.html">CONTACT</a></li>
-            <li><a href="/fr/a_propos.html">À PROPOS</a></li>
-            <li><a href="/fr/autres_projets.html">AUTRES PROJETS</a></li>
+        <div class="footer-logo">
+            <a href="/assets/icons/Logo.svg">
+                <img src="/assets/icons/Logo.svg" alt="Logo">
+            </a>
+            <a href="/assets/icons/Empreinte.svg">
+                <img src="/assets/icons/Empreinte.svg" alt="Empreinte">
+            </a>
+        </div>
 
-        </ul>
+        <div class="footer-menu">
+            <p>MENU</p>
+            <ul>
+                <li><a href="/fr/index.html">ARTICLES</a></li>
+                <li><a href="/fr/contact.html">CONTACT</a></li>
+                <li><a href="/fr/a_propos.html">À PROPOS</a></li>
+                <li><a href="/fr/autres_projets.html">AUTRES PROJETS</a></li>
+            </ul>
+        </div>
 
-        <ul>
-            <li>CONTACT</li>
-            <li>YANIS CHOUHIB</li>
-            <li>GROUPE B2</li>
-            <li>YANIS.FORSTER@GMAIL.COM</li>
-            <li>4 PL. LUCIEN THARRADIN</li>
-            <li>25200 MONTBELIARD</li>
-            <li>03 81 99 47 34</li>
-        </ul>
+        <div class="footer-contact">
+            <ul>
+                <li>CONTACT</li>
+                <li>YANIS CHOUHIB</li>
+                <li>GROUPE B2</li>
+                <li>YANIS.FORSTER@GMAIL.COM</li>
+                <li>4 PL. LUCIEN THARRADIN</li>
+                <li>25200 MONTBELIARD</li>
+                <li>03 81 99 47 34</li>
+            </ul>
+        </div>
 
-        <a href="/assets/icons/Instagram.svg">
-            <img src="/assets/icons/Instagram.svg" alt="Instagram">
-        </a>
-        <a href="/assets/icons/tiktok.svg">
-            <img src="/assets/icons/tiktok.svg" alt="TikTok">
-        </a>
-        <a href="/assets/icons/facebook.svg">
-            <img src="/assets/icons/facebook.svg" alt="Facebook">
-        </a>
-        <p><a href="https://www.iut-nfc.univ-fcomte.fr/">SITE DE L'IUT MARIE ET LOUIS PASTEUR</a></p>
-        <p>Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département MMi de Montbéliard</p>
+        <div class="footer-social">
+            <a href="/assets/icons/Instagram.svg">
+                <img src="/assets/icons/Instagram.svg" alt="Instagram">
+            </a>
+            <a href="/assets/icons/tiktok.svg">
+                <img src="/assets/icons/tiktok.svg" alt="TikTok">
+            </a>
+            <a href="/assets/icons/facebook.svg">
+                <img src="/assets/icons/facebook.svg" alt="Facebook">
+            </a>
+        </div>
 
+        <div class="footer-info">
+            <p><a href="https://www.iut-nfc.univ-fcomte.fr/">SITE DE L'IUT MARIE ET LOUIS PASTEUR</a></p>
+            <p>Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département MMi de Montbéliard</p>
+        </div>
     </footer>
 
 </body>

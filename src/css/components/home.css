@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Composant Home - Page d'accueil
+   ========================================================================== */
+
+.home {
+    /* Styles du conteneur principal */
+}
+
+.home__header {
+    /* Styles de l'en-tête */
+}
+
+.home__title {
+    /* Styles du titre principal */
+}
+
+.home__intro {
+    /* Styles de l'introduction */
+}
+
+.home__subtitle {
+    /* Styles du sous-titre */
+}
+
+.home__articles-gallery {
+    /* Styles de la galerie d'articles */
+}
+
+.home__article-card {
+    /* Styles des cartes d'article */
+}

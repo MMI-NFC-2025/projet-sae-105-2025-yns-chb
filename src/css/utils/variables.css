@@ -1,0 +1,45 @@
+/* Couleur */
+:root {
+    /* Mode 1 */
+    /* color */
+    --beige: #c7bba6;
+    --blanc: #ffffff;
+    --blanc-cassé: #d9d9d9;
+    --bleu: #072ad8;
+    --cyan: #59bfca;
+    --gris: #5d5b5a;
+    --noir: #000000;
+    --pomme: #b3ef6a;
+    --rouge: #d14343;
+}
+
+/* Typographie */
+:root {
+    /* Mode 1 */
+    /* number */
+    --small-texte-2: 0.6875rem;
+    --small-texte-1: 0.875rem;
+    --small-texte-uppercase: 0.9375rem;
+    --body-3: 1rem;
+    --body-2: 1.125rem;
+    --body-1: 1.25rem;
+    --h3: 1.5rem;
+    --h2: 1.625rem;
+    --h1: 2.25rem;
+    /* string */
+    --inria: Inria Serif;
+    --string: Inria sans;
+}
+
+/* Espace  */
+:root {
+    /* Mode 1 */
+    /* number */
+    --small-texte: 0.75rem;
+    --texte-3: 1rem;
+    --texte-2: 1.25rem;
+    --texte-1: 1.75rem;
+    --h3: 2rem;
+    --h2: 2.5rem;
+    --h1: 3.25rem;
+}

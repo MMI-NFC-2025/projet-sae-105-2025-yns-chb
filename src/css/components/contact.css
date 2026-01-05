@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Composant Contact - Page Contact
+   ========================================================================== */
+
+.contact {
+    /* Styles du conteneur principal */
+}
+
+.contact__header {
+    /* Styles de l'en-tête */
+}
+
+.contact__title {
+    /* Styles du titre principal */
+}
+
+.contact__intro {
+    /* Styles de l'introduction */
+}
+
+.contact__form {
+    /* Styles du formulaire */
+}
+
+.contact__label {
+    /* Styles des labels */
+}
+
+.contact__options {
+    /* Styles du conteneur d'options */
+}
+
+.contact__option {
+    /* Styles des options individuelles */
+}
+
+.contact__submit {
+    /* Styles du bouton submit */
+}

@@ -11,6 +11,16 @@
     <link rel="shortcut icon" href="/assets/icons/Logo.svg" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/Logo.svg" />
     <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
 <header>
     <a href="/fr/index.html">
@@ -43,61 +53,88 @@
 </header>
 
 <main>
-    <h1>À propos</h1>
-    <p>Bonjour,</p>
-    <p>Je m'appelle Yanis Chouhib et je suis étudiant en première année de BUT Métiers du Multimédia et de l'Internet
-        (MMI) à
-        Montbéliard.</p>
+    <article class="about">
+        <header class="about__header">
+            <h1 class="about__title">À propos</h1>
+        </header>
 
-    <p>Ce site a été réalisé dans le cadre d'un projet universitaire ayant pour objectif de mettre en lumière une femme
-        de
-        science dont le travail a été invisibilisé par un homme, un phénomène connu sous le nom “d' effet Matilda”.</p>
+        <section class="about__intro">
+            <p class="about__text">Bonjour,</p>
+            <p class="about__text">Je m'appelle Yanis Chouhib et je suis étudiant en première année de BUT Métiers du
+                Multimédia et de
+                l'Internet
+                (MMI) à
+                Montbéliard.</p>
+        </section>
 
-    <p>À travers différents articles, analyses et références culturelles (films, livres, documentaires), ce site cherche
-        à
-        valoriser l'héritage des femmes scientifiques. Et à sensibiliser le public aux injustices encore présentes dans
-        la
-        reconnaissance de leurs contributions à la science.</p>
+        <section class="about__project">
+            <p class="about__text">Ce site a été réalisé dans le cadre d'un projet universitaire ayant pour objectif de
+                mettre en lumière
+                une femme
+                de
+                science dont le travail a été invisibilisé par un homme, un phénomène connu sous le nom "d' effet
+                Matilda".</p>
+
+            <p class="about__text">À travers différents articles, analyses et références culturelles (films, livres,
+                documentaires), ce site
+                cherche
+                à
+                valoriser l'héritage des femmes scientifiques. Et à sensibiliser le public aux injustices encore
+                présentes dans
+                la
+                reconnaissance de leurs contributions à la science.</p>
+        </section>
+    </article>
 </main>
 
 <footer>
-    <a href="/assets/icons/Logo.svg">
-        <img src="/assets/icons/Logo.svg" alt="Logo">
-    </a>
-    <a href="/assets/icons/Empreinte.svg">
-        <img src="/assets/icons/Empreinte.svg" alt="Empreinte">
-    </a>
-    <p>MENU</p>
-    <ul>
-    <li><a href="/fr/index.html">ARTICLES</a></li>
-    <li><a href="/fr/contact.html">CONTACT</a></li>
-    <li> À PROPOS</li>
-    <li><a href="/fr/autres_projets.html">AUTRES PROJETS</a></li>
-               
-    </ul>
+    <div class="footer-logo">
+        <a href="/assets/icons/Logo.svg">
+            <img src="/assets/icons/Logo.svg" alt="Logo">
+        </a>
+        <a href="/assets/icons/Empreinte.svg">
+            <img src="/assets/icons/Empreinte.svg" alt="Empreinte">
+        </a>
+    </div>
 
-    <ul>
-        <li>CONTACT</li>
-        <li>YANIS CHOUHIB</li>
-        <li>GROUPE B2</li>
-        <li>YANIS.FORSTER@GMAIL.COM</li>
-        <li>4 PL. LUCIEN THARRADIN</li>
-        <li>25200 MONTBELIARD</li>
-        <li>03 81 99 47 34</li>
-    </ul>
+    <div class="footer-menu">
+        <p>MENU</p>
+        <ul>
+            <li><a href="/fr/index.html">ARTICLES</a></li>
+            <li><a href="/fr/contact.html">CONTACT</a></li>
+            <li><a href="/fr/a_propos.html">À PROPOS</a></li>
+            <li><a href="/fr/autres_projets.html">AUTRES PROJETS</a></li>
+        </ul>
+    </div>
 
-    <a href="/assets/icons/Instagram.svg">
-        <img src="/assets/icons/Instagram.svg" alt="Instagram">
-    </a>
-    <a href="/assets/icons/tiktok.svg">
-        <img src="/assets/icons/tiktok.svg" alt="TikTok">
-    </a>
-    <a href="/assets/icons/facebook.svg">
-        <img src="/assets/icons/facebook.svg" alt="Facebook">
-    </a>
-    <p><a href="https://www.iut-nfc.univ-fcomte.fr/">SITE DE L'IUT MARIE ET LOUIS PASTEUR</a></p>
-    <p>Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département MMi de Montbéliard</p>
+    <div class="footer-contact">
+        <ul>
+            <li>CONTACT</li>
+            <li>YANIS CHOUHIB</li>
+            <li>GROUPE B2</li>
+            <li>YANIS.FORSTER@GMAIL.COM</li>
+            <li>4 PL. LUCIEN THARRADIN</li>
+            <li>25200 MONTBELIARD</li>
+            <li>03 81 99 47 34</li>
+        </ul>
+    </div>
 
+    <div class="footer-social">
+        <a href="/assets/icons/Instagram.svg">
+            <img src="/assets/icons/Instagram.svg" alt="Instagram">
+        </a>
+        <a href="/assets/icons/tiktok.svg">
+            <img src="/assets/icons/tiktok.svg" alt="TikTok">
+        </a>
+        <a href="/assets/icons/facebook.svg">
+            <img src="/assets/icons/facebook.svg" alt="Facebook">
+        </a>
+    </div>
+
+    <div class="footer-info">
+        <p><a href="https://www.iut-nfc.univ-fcomte.fr/">SITE DE L'IUT MARIE ET LOUIS PASTEUR</a></p>
+        <p>Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département MMi de Montbéliard</p>
+    </div>
 </footer>
 
 <body>

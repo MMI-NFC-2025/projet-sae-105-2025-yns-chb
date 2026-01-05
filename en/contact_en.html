@@ -11,6 +11,16 @@
     <link rel="shortcut icon" href="/assets/icons/Logo.svg" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/Logo.svg" />
     <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -44,64 +54,85 @@
     </header>
 
     <main>
-        <h1>Contact</h1>
-        <p>If you have any questions about the website content or anything else, you can contact me using this form :
-        </p>
+        <article class="contact">
+            <header class="contact__header">
+                <h1 class="contact__title">Contact</h1>
+                <p class="contact__intro">If you have any questions about the website content or anything else, you can
+                    contact me using this form :
+                </p>
+            </header>
 
-        <p>Name:</p>
+            <section class="contact__form">
+                <p class="contact__label">Name:</p>
 
-        <p>Email address:</p>
+                <p class="contact__label">Email address:</p>
 
-        <p>Subject of the message:</p>
-        <ul>
-            <li>-A question about the website</li>
-            <li>-Proposal for content addition</li>
-            <li>-Feedback or suggestion</li>
-            <li>-Other</li>
-        </ul>
+                <p class="contact__label">Subject of the message:</p>
+                <ul class="contact__options">
+                    <li class="contact__option">-A question about the website</li>
+                    <li class="contact__option">-Proposal for content addition</li>
+                    <li class="contact__option">-Feedback or suggestion</li>
+                    <li class="contact__option">-Other</li>
+                </ul>
 
-        <p>Message :</p>
+                <p class="contact__label">Message :</p>
 
-        <button type="submit">Send</button>
+                <button type="submit" class="contact__submit">Send</button>
+            </section>
+        </article>
     </main>
 
     <footer>
-        <a href="/assets/icons/Logo.svg">
-            <img src="/assets/icons/Logo.svg" alt="Logo">
-        </a>
-        <a href="/assets/icons/Empreinte.svg">
-            <img src="/assets/icons/Empreinte.svg" alt="Empreinte">
-        </a>
-        <p>MENU</p>
-        <ul>
-            <li><a href="/fr/index.html">ARTICLES</a></li>
-            <li>CONTACT</li>
-            <li><a href="/fr/a_propos.html">ABOUT</a></li>
-            <li><a href="/fr/autres_projets.html">OTHER PROJECTS</a></li>
+        <footer>
+            <div class="footer-logo">
+                <a href="/assets/icons/Logo.svg">
+                    <img src="/assets/icons/Logo.svg" alt="Logo">
+                </a>
+                <a href="/assets/icons/Empreinte.svg">
+                    <img src="/assets/icons/Empreinte.svg" alt="Empreinte">
+                </a>
+            </div>
 
-        </ul>
+            <div class="footer-menu">
+                <p>MENU</p>
+                <ul>
+                    <li><a href="/fr/index.html">ARTICLES</a></li>
+                    <li><a href="/fr/contact.html">CONTACT</a></li>
+                    <li><a href="/fr/a_propos.html">ABOUT</a></li>
+                    <li><a href="/fr/autres_projets.html">OTHER PROJECTS</a></li>
+                </ul>
+            </div>
 
-        <ul>
-            <li>CONTACT</li>
-            <li>YANIS CHOUHIB</li>
-            <li>GROUPE B2</li>
-            <li>YANIS.FORSTER@GMAIL.COM</li>
-            <li>4 PL. LUCIEN THARRADIN</li>
-            <li>25200 MONTBELIARD</li>
-            <li>03 81 99 47 34</li>
-        </ul>
+            <div class="footer-contact">
+                <ul>
+                    <li>CONTACT</li>
+                    <li>YANIS CHOUHIB</li>
+                    <li>GROUPE B2</li>
+                    <li>YANIS.FORSTER@GMAIL.COM</li>
+                    <li>4 PL. LUCIEN THARRADIN</li>
+                    <li>25200 MONTBELIARD</li>
+                    <li>03 81 99 47 34</li>
+                </ul>
+            </div>
 
-        <a href="/assets/icons/Instagram.svg">
-            <img src="/assets/icons/Instagram.svg" alt="Instagram">
-        </a>
-        <a href="/assets/icons/tiktok.svg">
-            <img src="/assets/icons/tiktok.svg" alt="TikTok">
-        </a>
-        <a href="/assets/icons/facebook.svg">
-            <img src="/assets/icons/facebook.svg" alt="Facebook">
-        </a>
-        <p><a href="https://www.iut-nfc.univ-fcomte.fr/">WEB SITE OF IUT MARIE AND LOUIS PASTEUR</a></p>
-        <p>PROJECT CARRIED OUT IN 2025 AS PART OF AN EDUCATIONAL EXERCISE AT THE MMI DEPARTEMENT OF MONTBELIARD</p>
+            <div class="footer-social">
+                <a href="/assets/icons/Instagram.svg">
+                    <img src="/assets/icons/Instagram.svg" alt="Instagram">
+                </a>
+                <a href="/assets/icons/tiktok.svg">
+                    <img src="/assets/icons/tiktok.svg" alt="TikTok">
+                </a>
+                <a href="/assets/icons/facebook.svg">
+                    <img src="/assets/icons/facebook.svg" alt="Facebook">
+                </a>
+            </div>
+
+            <div class="footer-info">
+                <p><a href="https://www.iut-nfc.univ-fcomte.fr/">WEB SITE OF IUT MARIE AND LOUIS PASTEUR</a></p>
+                <p>PROJECT CARRIED OUT IN 2025 AS PART OF AN EDUCATIONAL EXERCISE AT THE MMI DEPARTEMENT OF MONTBELIARD
+                </p>
+            </div>
+        </footer>
 
     </footer>
 

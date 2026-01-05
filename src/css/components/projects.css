@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Composant Projects - Page Autres projets
+   ========================================================================== */
+
+.projects {
+    /* Styles du conteneur principal */
+}
+
+.projects__header {
+    /* Styles de l'en-tête */
+}
+
+.projects__title {
+    /* Styles du titre principal */
+}
+
+.projects__grid {
+    /* Styles de la grille de cartes */
+}
+
+.projects__card {
+    /* Styles des cartes de projet */
+}
+
+.projects__card-title {
+    /* Styles des titres de carte */
+}
+
+.projects__card-link {
+    /* Styles des liens de carte */
+}
+
+.projects__card-image {
+    /* Styles des images de carte */
+}
+
+.projects__card-author {
+    /* Styles de l'auteur de carte */
+}

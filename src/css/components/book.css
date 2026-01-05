@@ -1,0 +1,51 @@
+/* ==========================================================================
+   Composant Book - Page Livre
+   ========================================================================== */
+
+.book {
+    /* Styles du conteneur principal */
+}
+
+.book__header {
+    /* Styles de l'en-tête */
+}
+
+.book__hero-link {
+    /* Styles du lien de l'image hero */
+}
+
+.book__hero-image {
+    /* Styles de l'image hero */
+}
+
+.book__title {
+    /* Styles du titre principal */
+}
+
+.book__meta {
+    /* Styles des métadonnées */
+}
+
+.book__intro {
+    /* Styles de l'introduction */
+}
+
+.book__summary {
+    /* Styles de la section résumé */
+}
+
+.book__links {
+    /* Styles de la section liens/interprétation */
+}
+
+.book__excerpt {
+    /* Styles de la section extrait */
+}
+
+.book__section-title {
+    /* Styles des titres de section */
+}
+
+.book__text {
+    /* Styles des paragraphes de texte */
+}

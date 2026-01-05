@@ -11,6 +11,16 @@
     <link rel="shortcut icon" href="/assets/icons/Logo.svg" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/Logo.svg" />
     <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -44,200 +54,271 @@
 
     </header>
     <main>
-        <a href="/assets/img/film_cards_accueil.avif">
-            <img src="/assets/img/film_cards_accueil.avif" alt="Quand la science prend vie">
-        </a>
-        <h1>Quand la science prend vie</h1>
-        <p>Par Yanis Chouhib, publié le 22 octobre 2025</p>
-
-        <p>De Mary Anning, dont les découvertes ont posé les bases de la paléontologie moderne, à Claire Dearing,
-            directrice
-            d'opérations du parc de Jurassic World, se dessine le combat des femmes pour exister et être reconnues dans
-            un monde
-            scientifique et culturel longtemps dominé par les hommes.</p>
-
-
-        <figure>
-            <video controls>
-                <source src="/assets/video/bande_annonce.mp4" type="video/mp4">
-                Votre navigateur ne supporte pas la balise vidéo.
-            </video>
-            <figcaption>Bande annonce de Jurassic World</figcaption>
-        </figure>
-
-        <h3>Synopsis</h3>
-        <p>Sorti en 2015 et réalisé par Colin Trevorrow, Jurassic World nous replonge sur l'île d'Isla Nublar,
-            vingt-deux ans après
-            les événements de Jurassic Park. Un immense parc d'attractions, peuplé de dinosaures ouvre ses portes au
-            public sous le
-            nom de Jurassic World. Claire Dearing est la directrice des opérations de l'île. Pour attirer plus de
-            visiteurs, son
-            équipe décide de créer un nouveau dinosaure hybride : l'Indominus rex, une créature intelligente et
-            redoutable. Mais
-            l'expérience tourne au désastre lorsque le monstre s'échappe de son enclos, semant panique et destruction
-            sur l'île.
-            Face à cette crise, Claire se tourne vers Owen Grady, un dresseur de vélociraptors, pour l'aider à stopper
-            la créature.
-            Ensemble, ils vont devoir faire preuve de courage et de réflexion pour sauver les visiteurs et reprendre le
-            contrôle du
-            parc.</p>
+        <article class="movies">
+            <header class="movies__header">
+                <a href="/assets/img/film_cards_accueil.avif">
+                    <img src="/assets/img/film_cards_accueil.avif" alt="Quand la science prend vie">
+                </a>
+                <h1 class="movies__title">Quand la science prend vie</h1>
+                <p class="movies__meta">Par Yanis Chouhib, publié le 22 octobre 2025</p>
+                <p class="movies__intro">De Mary Anning, dont les découvertes ont posé les bases de la paléontologie
+                    moderne, à Claire
+                    Dearing,
+                    directrice
+                    d'opérations du parc de Jurassic World, se dessine le combat des femmes pour exister et être
+                    reconnues dans
+                    un monde
+                    scientifique et culturel longtemps dominé par les hommes.</p>
+            </header>
 
 
-        <figure>
-            <a href="/assets/img/claire_dearing.avif">
-                <img src="/assets/img/claire_dearing.avif" alt="Claire Dearing" loading="lazy">
-            </a>
-            <figcaption>Claire Dearing</figcaption>
-        </figure>
+            <section class="movies__video-section">
+                <figure>
+                    <video controls>
+                        <source src="/assets/video/bande_annonce.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la balise vidéo.
+                    </video>
+                    <figcaption>Bande annonce de Jurassic World</figcaption>
+                </figure>
 
-        <h3>La place de Claire Dearing dans Jurassic World</h3>
-        <p>Claire Dearing occupe un rôle central dans la gestion quotidienne de Jurassic World en tant que directrice
-            des
-            opérations. Organisée et méthodique, elle supervise la sécurité et prend les décisions clés pour assurer le
-            bon
-            fonctionnement du parc. Lorsque l'Indominus rex s'échappe et que la situation devient chaotique, Owen Grady
-            prend les
-            commandes sur le terrain grâce à son expérience avec les dinosaures. Malgré cette prise d'initiative, Claire
-            conserve
-            son autorité et reste une figure majeure dans la coordination des efforts pour sauver le parc et ses
-            visiteurs.</p>
-
-
-        <h3>Les recherches de Mary Anning et leur lien avec Jurassic World</h3>
-        <p>Mary Anning a révélé au monde des créatures fascinantes comme l'ichtyosaure, le plésiosaure ou le
-            ptérodactyle, au cours
-            de ses recherches sur la côte du Dorset. Ces fossiles ont fourni des connaissances fondamentales sur les
-            animaux
-            préhistoriques et leur anatomie. Jurassic World s'inspire directement de ce type de travaux. Les dinosaures
-            clonés dans
-            le parc reposent sur les découvertes paléontologiques comme celles de Mary Anning. Sans ces recherches
-            pionnières, la
-            vision du parc peuplé de créatures préhistoriques n'aurait pas été imaginable.</p>
-
-        <figure>
-            <a href="/assets/img/ptérodactyle_film.avif">
-                <img src="/assets/img/ptérodactyle_film.avif" alt="Ptérodactyle dans Jurassic World" loading="lazy">
-            </a>
-            <figcaption>Ptérodactyles présent dans le film</figcaption>
-        </figure>
+                <h3 class="movies__section-title">Synopsis</h3>
+                <p class="movies__text">Sorti en 2015 et réalisé par Colin Trevorrow, Jurassic World nous replonge sur
+                    l'île d'Isla Nublar, vingt-deux ans après les événements de Jurassic Park. Un immense parc d'attractions, peuplé de dinosaures ouvre ses
+                    portes au public sous le
+                    nom de Jurassic World. Claire Dearing est la directrice des opérations de l'île. Pour attirer plus
+                    de visiteurs, son équipe décide de créer un nouveau dinosaure hybride : l'Indominus rex, une créature intelligente et
+                    redoutable. Mais l'expérience tourne au désastre lorsque le monstre s'échappe de son enclos, semant panique et destruction
+                    sur l'île. Face à cette crise, Claire se tourne vers Owen Grady, un dresseur de vélociraptors, pour l'aider à
+                    stopper la créature. Ensemble, ils vont devoir faire preuve de courage et de réflexion pour sauver les visiteurs et
+                    reprendre le contrôle du parc.</p>
+            </section>
 
 
-        <h3>L'évolution de la place des femmes dans la science</h3>
-        <p>Mary Anning a travaillé dans un contexte où les femmes étaient souvent ignorées ou moquées, et son travail a
-            parfois été
-            volé ou attribué à des hommes. Aujourd'hui, Claire Dearing représente une évolution significative : elle
-            occupe un poste
-            de direction respecté, prend des décisions importantes et est reconnue pour ses compétences. Le contraste
-            entre Mary et
-            Claire illustre le chemin parcouru par les femmes dans la science et le leadership : d'une reconnaissance
-            quasi
-            inexistante à une position de pouvoir et de respect.</p>
-
-        <h3>Films et séries coréllés</h3>
-
-        <a href="/assets/img/jurassic_parc.avif">
-            <img src="/assets/img/jurassic_parc.avif" alt="Jurassic Parc" loading="lazy">
-        </a>
-        <p>Jurassic Parc (1993)</p>
-        <p>Jurassic Park raconte l'histoire d'un milliardaire qui recrée des dinosaures grâce à l'ADN fossile sur une
-            île isolée
-            pour en faire un parc d'attractions. Mais les créatures, imprévisibles et puissantes, échappent rapidement à
-            tout
-            contrôle. Le film mêle aventure et suspense, tout en rappelant l'importance de la science et de la
-            préservation des
-            espèces disparues.</p>
-
-
-        <a href="/assets/img/walking_with_dinosaure.avif">
-            <img src="/assets/img/walking_with_dinosaure.avif" alt="Walking with Dinosaurs" loading="lazy">
-        </a>
-        <p>Walking with Dinosaurs (1999)</p>
-        <p>Walking with Dinosaurs est une série documentaire révolutionnaire qui reconstitue la vie préhistorique grâce
-            à des
-            effets spéciaux réalistes et à des données scientifiques fiables. Elle plonge les spectateurs dans le monde
-            des
-            dinosaures, illustrant leur comportement et leur environnement, et inspire la curiosité scientifique.</p>
+            <section class="movies__film-section">
+                <h3 class="movies__section-title">La place de Claire Dearing dans Jurassic World</h3>
+                <figure>
+                    <a href="/assets/img/claire_dearing.avif">
+                        <img src="/assets/img/claire_dearing.avif" alt="Claire Dearing" loading="lazy">
+                    </a>
+                    <figcaption>Claire Dearing</figcaption>
+                </figure>
+                <p class="movies__text">Claire Dearing occupe un rôle central dans la gestion quotidienne de Jurassic
+                    World en tant que
+                    directrice
+                    des
+                    opérations. Organisée et méthodique, elle supervise la sécurité et prend les décisions clés pour
+                    assurer
+                    le
+                    bon
+                    fonctionnement du parc. Lorsque l'Indominus rex s'échappe et que la situation devient chaotique,
+                    Owen
+                    Grady
+                    prend les
+                    commandes sur le terrain grâce à son expérience avec les dinosaures. Malgré cette prise
+                    d'initiative,
+                    Claire
+                    conserve
+                    son autorité et reste une figure majeure dans la coordination des efforts pour sauver le parc et ses
+                    visiteurs.</p>
+            </section>
 
 
-        <a href="/assets/img/dinotopia.avif">
-            <img src="/assets/img/dinotopia.avif" alt="Dinotopia" loading="lazy">
-        </a>
-        <p>Dinotopia (2002)</p>
-        <p>Dinotopia suit deux frères échoués sur une île mystérieuse où humains et dinosaures coexistent pacifiquement.
-            La série
-            mêle aventure, exploration et découvertes scientifiques dans un univers préhistorique imaginaire.</p>
+            <section class="movies__film-section">
+                <h3 class="movies__section-title">Les recherches de Mary Anning et leur lien avec Jurassic World</h3>
+                <figure>
+                    <a href="/assets/img/ptérodactyle_film.avif">
+                        <img src="/assets/img/ptérodactyle_film.avif" alt="Ptérodactyle dans Jurassic World"
+                            loading="lazy">
+                    </a>
+                    <figcaption>Ptérodactyles présent dans le film</figcaption>
+                </figure>
+                <p class="movies__text">Mary Anning a révélé au monde des créatures fascinantes comme l'ichtyosaure, le
+                    plésiosaure ou le
+                    ptérodactyle, au cours
+                    de ses recherches sur la côte du Dorset. Ces fossiles ont fourni des connaissances fondamentales sur
+                    les
+                    animaux
+                    préhistoriques et leur anatomie. Jurassic World s'inspire directement de ce type de travaux. Les
+                    dinosaures
+                    clonés dans
+                    le parc reposent sur les découvertes paléontologiques comme celles de Mary Anning. Sans ces
+                    recherches
+                    pionnières, la
+                    vision du parc peuplé de créatures préhistoriques n'aurait pas été imaginable.</p>
+            </section>
 
 
-        <a href="/assets/img/radioactive.avif">
-            <img src="/assets/img/radioactive.avif" alt="Radioactive" loading="lazy">
-        </a>
-        <p>Radioactive (2019)</p>
-        <p>Radioactive retrace le parcours de Marie Curie, ses découvertes révolutionnaires et sa lutte pour être
-            reconnue dans un
-            monde scientifique dominé par les hommes. Elle incarne la persévérance féminine face à l'exclusion et au
-            doute,
-            démontrant que les grandes découvertes peuvent venir de celles que la société tente d'écarter.</p>
+            <section class="movies__film-section">
+                <h3 class="movies__section-title">L'évolution de la place des femmes dans la science</h3>
+                <p class="movies__text">Mary Anning a travaillé dans un contexte où les femmes étaient souvent ignorées
+                    ou moquées, et son
+                    travail a
+                    parfois été
+                    volé ou attribué à des hommes. Aujourd'hui, Claire Dearing représente une évolution significative :
+                    elle
+                    occupe un poste
+                    de direction respecté, prend des décisions importantes et est reconnue pour ses compétences. Le
+                    contraste
+                    entre Mary et
+                    Claire illustre le chemin parcouru par les femmes dans la science et le leadership : d'une
+                    reconnaissance
+                    quasi
+                    inexistante à une position de pouvoir et de respect.</p>
+            </section>
+
+            <section class="movies__related-films">
+                <h3 class="movies__section-title">Films et séries coréllés</h3>
+
+                <div class="movies__film-card">
+                    <a href="/assets/img/jurassic_parc.avif">
+                        <img src="/assets/img/jurassic_parc.avif" alt="Jurassic Parc" loading="lazy">
+                    </a>
+                    <h4 class="movies__film-card-title">Jurassic Parc (1993)</h4>
+                    <p class="movies__film-card-text">Jurassic Park raconte l'histoire d'un milliardaire qui recrée des
+                        dinosaures grâce à l'ADN
+                        fossile
+                        sur une
+                        île isolée
+                        pour en faire un parc d'attractions. Mais les créatures, imprévisibles et puissantes, échappent
+                        rapidement à
+                        tout
+                        contrôle. Le film mêle aventure et suspense, tout en rappelant l'importance de la science et de
+                        la
+                        préservation des
+                        espèces disparues.</p>
+                </div>
+
+                <div class="movies__film-card">
+                    <a href="/assets/img/walking_with_dinosaure.avif">
+                        <img src="/assets/img/walking_with_dinosaure.avif" alt="Walking with Dinosaurs" loading="lazy">
+                    </a>
+                    <h4 class="movies__film-card-title">Walking with Dinosaurs (1999)</h4>
+                    <p class="movies__film-card-text">Walking with Dinosaurs est une série documentaire révolutionnaire
+                        qui reconstitue la vie
+                        préhistorique grâce
+                        à des
+                        effets spéciaux réalistes et à des données scientifiques fiables. Elle plonge les spectateurs
+                        dans
+                        le monde
+                        des
+                        dinosaures, illustrant leur comportement et leur environnement, et inspire la curiosité
+                        scientifique.</p>
+                </div>
+
+                <div class="movies__film-card">
+                    <a href="/assets/img/dinotopia.avif">
+                        <img src="/assets/img/dinotopia.avif" alt="Dinotopia" loading="lazy">
+                    </a>
+                    <h4 class="movies__film-card-title">Dinotopia (2002)</h4>
+                    <p class="movies__film-card-text">Dinotopia suit deux frères échoués sur une île mystérieuse où
+                        humains et dinosaures coexistent
+                        pacifiquement.
+                        La série
+                        mêle aventure, exploration et découvertes scientifiques dans un univers préhistorique
+                        imaginaire.
+                    </p>
+                </div>
+
+                <div class="movies__film-card">
+                    <a href="/assets/img/radioactive.avif">
+                        <img src="/assets/img/radioactive.avif" alt="Radioactive" loading="lazy">
+                    </a>
+                    <h4 class="movies__film-card-title">Radioactive (2019)</h4>
+                    <p class="movies__film-card-text">Radioactive retrace le parcours de Marie Curie, ses découvertes
+                        révolutionnaires et sa lutte pour
+                        être
+                        reconnue dans un
+                        monde scientifique dominé par les hommes. Elle incarne la persévérance féminine face à
+                        l'exclusion
+                        et au
+                        doute,
+                        démontrant que les grandes découvertes peuvent venir de celles que la société tente d'écarter.
+                    </p>
+                </div>
+
+                <div class="movies__film-card">
+                    <a href="/assets/img/hidden_figure.avif">
+                        <img src="/assets/img/hidden_figure.avif" alt="Les Figures de l'ombre" loading="lazy">
+                    </a>
+                    <h4 class="movies__film-card-title">Les Figures de l'ombre (2016)</h4>
+                    <p class="movies__film-card-text">Hidden Figures raconte l'histoire vraie de trois mathématiciennes
+                        afro-américaines travaillant à
+                        la
+                        NASA,
+                        dont les
+                        calculs ont été essentiels aux missions spatiales. Ces femmes ont dû lutter pour que leurs
+                        compétences
+                        soient reconnues</p>
+                </div>
+
+                <div class="movies__film-card">
+                    <a href="/assets/img/picture_a_scientist.avif">
+                        <img src="/assets/img/picture_a_scientist.avif" alt="Picture a Scientist" loading="lazy">
+                    </a>
+                    <h4 class="movies__film-card-title">Picture a Scientist (2020)</h4>
+                    <p class="movies__film-card-text">Documentaire sur les inégalités et discriminations subies par les
+                        femmes scientifiques
+                        d'aujourd'hui,
+                        à
+                        travers des
+                        témoignages réels de chercheuses. Ce film met en lumière la persistance des obstacles dans le
+                        milieu
+                        scientifique,
+                        prolongeant le combat initié par des pionnières de la science.</p>
+                </div>
+            </section>
 
 
-        <a href="/assets/img/hidden_figure.avif">
-            <img src="/assets/img/hidden_figure.avif" alt="Les Figures de l'ombre" loading="lazy">
-        </a>
-        <p>Les Figures de l'ombre (2016)</p>
-        <p>Hidden Figures raconte l'histoire vraie de trois mathématiciennes afro-américaines travaillant à la NASA,
-            dont les
-            calculs ont été essentiels aux missions spatiales. Ces femmes ont dû lutter pour que leurs compétences
-            soient reconnues</p>
-
-        <a href="/assets/img/picture_a_scientist.avif">
-            <img src="/assets/img/picture_a_scientist.avif" alt="Picture a Scientist" loading="lazy">
-        </a>
-        <p>Picture a Scientist (2020)</p>
-        <p>Documentaire sur les inégalités et discriminations subies par les femmes scientifiques d'aujourd'hui, à
-            travers des
-            témoignages réels de chercheuses. Ce film met en lumière la persistance des obstacles dans le milieu
-            scientifique,
-            prolongeant le combat initié par des pionnières de la science.</p>
-
-
+        </article>
     </main>
     <footer>
-        <a href="/assets/icons/Logo.svg">
-            <img src="/assets/icons/Logo.svg" alt="Logo">
-        </a>
-        <a href="/assets/icons/Empreinte.svg">
-            <img src="/assets/icons/Empreinte.svg" alt="Empreinte">
-        </a>
-        <p>MENU</p>
-        <ul>
-            <li><a href="/fr/index.html">ARTICLES</a></li>
-            <li><a href="/fr/contact.html">CONTACT</a></li>
-            <li><a href="/fr/a_propos.html">À PROPOS</a></li>
-            <li><a href="/fr/autres_projets.html">AUTRES PROJETS</a></li>
+        <div class="footer-logo">
+            <a href="/assets/icons/Logo.svg">
+                <img src="/assets/icons/Logo.svg" alt="Logo">
+            </a>
+            <a href="/assets/icons/Empreinte.svg">
+                <img src="/assets/icons/Empreinte.svg" alt="Empreinte">
+            </a>
+        </div>
 
-        </ul>
+        <div class="footer-menu">
+            <p>MENU</p>
+            <ul>
+                <li><a href="/fr/index.html">ARTICLES</a></li>
+                <li><a href="/fr/contact.html">CONTACT</a></li>
+                <li><a href="/fr/a_propos.html">À PROPOS</a></li>
+                <li><a href="/fr/autres_projets.html">AUTRES PROJETS</a></li>
+            </ul>
+        </div>
 
-        <ul>
-            <li>CONTACT</li>
-            <li>YANIS CHOUHIB</li>
-            <li>GROUPE B2</li>
-            <li>YANIS.FORSTER@GMAIL.COM</li>
-            <li>4 PL. LUCIEN THARRADIN</li>
-            <li>25200 MONTBELIARD</li>
-            <li>03 81 99 47 34</li>
-        </ul>
+        <div class="footer-contact">
+            <ul>
+                <li>CONTACT</li>
+                <li>YANIS CHOUHIB</li>
+                <li>GROUPE B2</li>
+                <li>YANIS.FORSTER@GMAIL.COM</li>
+                <li>4 PL. LUCIEN THARRADIN</li>
+                <li>25200 MONTBELIARD</li>
+                <li>03 81 99 47 34</li>
+            </ul>
+        </div>
 
-        <a href="/assets/icons/Instagram.svg">
-            <img src="/assets/icons/Instagram.svg" alt="Instagram">
-        </a>
-        <a href="/assets/icons/tiktok.svg">
-            <img src="/assets/icons/tiktok.svg" alt="TikTok">
-        </a>
-        <a href="/assets/icons/facebook.svg">
-            <img src="/assets/icons/facebook.svg" alt="Facebook">
-        </a>
-        <p><a href="https://www.iut-nfc.univ-fcomte.fr/">SITE DE L'IUT MARIE ET LOUIS PASTEUR</a></p>
-        <p>Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département MMi de Montbéliard</p>
+        <div class="footer-social">
+            <a href="/assets/icons/Instagram.svg">
+                <img src="/assets/icons/Instagram.svg" alt="Instagram">
+            </a>
+            <a href="/assets/icons/tiktok.svg">
+                <img src="/assets/icons/tiktok.svg" alt="TikTok">
+            </a>
+            <a href="/assets/icons/facebook.svg">
+                <img src="/assets/icons/facebook.svg" alt="Facebook">
+            </a>
+        </div>
 
+        <div class="footer-info">
+            <p><a href="https://www.iut-nfc.univ-fcomte.fr/">SITE DE L'IUT MARIE ET LOUIS PASTEUR</a></p>
+            <p>Projet réalisé en 2025 dans le cadre d'un exercice pédagogique au département MMi de Montbéliard</p>
+        </div>
     </footer>
 </body>
 
