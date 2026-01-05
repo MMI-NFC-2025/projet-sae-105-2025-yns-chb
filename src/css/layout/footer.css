@@ -1,0 +1,147 @@
+/* Footer */
+footer {
+    background-color: var(--beige);
+    padding: 1.5rem 1rem 2rem;
+    color: var(--gris);
+}
+
+/* Logo footer */
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 3rem;
+}
+
+.footer-logo a {
+    display: block;
+    line-height: 0;
+}
+
+.footer-logo a:first-child img {}
+
+.footer-logo a:last-child img {
+    margin-top: 15px;
+}
+
+/* Menu footer */
+.footer-menu {
+    margin-bottom: 2rem;
+}
+
+.footer-menu p {
+    font-family: var(--string);
+    font-weight: 400;
+    font-size: var(--body-3);
+    margin: 0 0 1rem 0;
+
+}
+
+.footer-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-menu ul li a {
+    font-family: var(--string);
+    font-weight: 300;
+    font-size: 0.95rem;
+    color: var(--blanc);
+    text-decoration: none;
+    letter-spacing: 0.05em;
+}
+
+.footer-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contact footer */
+.footer-contact {
+    margin-bottom: 2rem;
+}
+
+.footer-contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-contact ul li {
+    font-family: var(--string);
+    font-weight: 300;
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+    letter-spacing: 0.05em;
+}
+
+.footer-contact ul li:first-child {
+    font-weight: 400;
+    margin-bottom: 0.8rem;
+    letter-spacing: 0.1em;
+}
+
+/* Réseaux sociaux */
+.footer-social {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-social a {
+    display: block;
+}
+
+.footer-social img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Informations footer */
+.footer-info {
+    padding-top: 1rem;
+}
+
+.footer-info p {
+    font-family: var(--string);
+    font-weight: 300;
+    font-size: 0.85rem;
+    margin: 0.5rem 0;
+    letter-spacing: 0.03em;
+    line-height: 1.4;
+}
+
+.footer-info a {
+    color: var(--gris);
+    text-decoration: none;
+}
+
+.footer-info a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+    footer {
+        padding: 3rem 4rem 2rem;
+    }
+
+    .footer-logo a:first-child img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .footer-logo a:last-child img {
+        height: 55px;
+    }
+}
+
+@media (min-width: 1024px) {
+    footer {
+        padding: 4rem 6rem 3rem;
+    }
+}
