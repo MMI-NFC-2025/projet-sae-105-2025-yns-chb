@@ -27,14 +27,15 @@ body>header {
 }
 
 .header__brand a:last-child img {
-    margin-top : 50px;
+    margin-top: 50px;
 }
 
 /* Conteneur des contrôles à droite */
 .header__controls {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.25rem;
+    margin-right: 5rem;
 }
 
 /* Sélecteur de langue */
@@ -51,6 +52,7 @@ body>header {
     align-items: center;
     gap: 0.25rem;
     margin-top: 25px;
+
 }
 
 .header__lang-btn::after {
@@ -61,4 +63,3 @@ body>header {
 .header__lang-btn:hover {
     background-color: var(--blanc-cassé);
 }
-

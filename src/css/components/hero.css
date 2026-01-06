@@ -79,7 +79,6 @@
         min-height: 400px;
         padding: var(--h3) var(--texte-3);
         margin-bottom: var(--h3);
-        border-radius: 8px;
         background-attachment: scroll;
     }
 
