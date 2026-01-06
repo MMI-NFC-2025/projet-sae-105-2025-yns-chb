@@ -3,41 +3,141 @@
    ========================================================================== */
 
 .women-knowledge {
-    /* Styles du conteneur principal */
+    background-color: var(--blanc);
+    padding: 0 0 clamp(2rem, 5vw, 3rem);
 }
 
 .women-knowledge__header {
-    /* Styles de l'en-tête */
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin: 0 auto;
 }
 
 .women-knowledge__intro-figures {
-    /* Styles des figures d'introduction */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0;
+    overflow: hidden;
+}
+
+.women-knowledge__intro-figures figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background: var(--beige);
+}
+
+.women-knowledge__intro-figures img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
+.women-knowledge__intro-figures figcaption {
+    padding: 0.35rem 0.5rem 0.55rem;
+    text-align: center;
+    font-size: var(--small-texte-1);
+    color: var(--gris);
 }
 
 .women-knowledge__title {
-    /* Styles du titre principal */
+    margin: 0;
+    font-size: clamp(2.5rem, 6vw, 3.6rem);
+    line-height: 1.05;
+    color: var(--noir);
+    background-color: var(--beige);
+    padding: 0 20px var(--texte-2) 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 .women-knowledge__meta {
-    /* Styles des métadonnées */
+    font-family: var(--string);
+    font-size: var(--body-2);
+    color: var(--gris);
+    margin: 0;
+    font-weight: 400;
+    font-style: italic;
+    padding: var(--texte-2) 20px 0;
+    max-width: 1200px;
+    margin-right: auto;
 }
 
 .women-knowledge__intro {
-    /* Styles de l'introduction */
+    font-family: var(--string);
+    font-size: var(--body-1);
+    color: var(--noir);
+    line-height: 1.6;
+    margin: 0;
+    font-weight: 400;
+    padding: var(--texte-2) 20px var(--h2);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .women-knowledge__scientist-section {
-    /* Styles des sections scientifiques */
+    max-width: 1200px;
+    margin: var(--h1) auto 0;
+    padding: 0 20px;
 }
 
 .women-knowledge__scientist-name {
-    /* Styles des noms de scientifiques */
+    font-family: var(--inria);
+    font-size: var(--h3);
+    color: var(--noir);
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
 }
 
 .women-knowledge__scientist-text {
-    /* Styles du texte sur les scientifiques */
+    font-family: var(--string);
+    font-size: var(--body-1);
+    color: var(--noir);
+    line-height: 1.7;
+    margin: 0;
+    font-weight: 400;
 }
 
 .women-knowledge__books-gallery {
-    /* Styles de la galerie de livres */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--h2);
+    margin-top: var(--h2);
+}
+
+.women-knowledge__books-gallery figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.women-knowledge__books-gallery img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 4.5;
+    object-fit: cover;
+}
+
+.women-knowledge__books-gallery figcaption {
+    text-align: center;
+    font-family: var(--string);
+    font-size: var(--small-texte-1);
+}
+
+.women-knowledge__books-gallery a {
+    color: var(--noir);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.women-knowledge__books-gallery a:hover,
+.women-knowledge__books-gallery a:focus-visible {
+    text-decoration: underline;
+    color: var(--bleu);
 }
