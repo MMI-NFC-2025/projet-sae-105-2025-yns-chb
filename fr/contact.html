@@ -53,14 +53,14 @@
 
         <nav id="mainNav">
             <ul>
-            <li><a href="/fr/index.html">Accueil</a></li>
-            <li><a href="/fr/Mary_Anning.html">Mary Anning, une découvreuse oubliée de la science</a></li>
-            <li><a href="/fr/falaise_du_dorset.html">Sous les falaise du Dorset</a></li>
-            <li><a href="/fr/femmes_et_savoir.html">Femmes et savoir raconté</a></li>
-            <li><a href="/fr/livre.html">Géologie et archéologie : une alliance scientifique</a></li>
-            <li><a href="/fr/film.html">Quand la science prend vie</a></li>
-            <li><a href="/fr/glossaire.html">Glossaire</a></li>
-                
+                <li><a href="/fr/index.html">Accueil</a></li>
+                <li><a href="/fr/Mary_Anning.html">Mary Anning, une découvreuse oubliée de la science</a></li>
+                <li><a href="/fr/falaise_du_dorset.html">Sous les falaise du Dorset</a></li>
+                <li><a href="/fr/femmes_et_savoir.html">Femmes et savoir raconté</a></li>
+                <li><a href="/fr/livre.html">Géologie et archéologie : une alliance scientifique</a></li>
+                <li><a href="/fr/film.html">Quand la science prend vie</a></li>
+                <li><a href="/fr/glossaire.html">Glossaire</a></li>
+
             </ul>
         </nav>
 
@@ -76,23 +76,27 @@
                 </p>
             </header>
 
-            <section class="contact__form">
-                <p class="contact__label">Nom Prénom :</p>
+            <form class="contact__form" method="post" action="">
+                <label for="name" class="contact__label">Nom Prénom :</label>
+                <input type="text" id="name" name="name" class="contact__input" required>
 
-                <p class="contact__label">Adresse e-mail :</p>
+                <label for="email" class="contact__label">Adresse e-mail :</label>
+                <input type="email" id="email" name="email" class="contact__input" required>
 
-                <p class="contact__label">Objet du message :</p>
-                <ul class="contact__options">
-                    <li class="contact__option">-Une question sur le site</li>
-                    <li class="contact__option">-Proposition d'ajout de contenu</li>
-                    <li class="contact__option">-Retour ou suggestion</li>
-                    <li class="contact__option">-Autre</li>
-                </ul>
+                <label for="subject" class="contact__label">Objet du message :</label>
+                <select id="subject" name="subject" class="contact__select" required>
+                    <option value="">Sélectionnez...</option>
+                    <option value="question">-Une question sur le site</option>
+                    <option value="ajout">-Proposition d'ajout de contenu</option>
+                    <option value="suggestion">-Retour ou suggestion</option>
+                    <option value="autre">-Autre</option>
+                </select>
 
-                <p class="contact__label">Message :</p>
+                <label for="message" class="contact__label">Message :</label>
+                <textarea id="message" name="message" class="contact__textarea" rows="8" required></textarea>
 
                 <button type="submit" class="contact__submit">Envoyer</button>
-            </section>
+            </form>
         </article>
     </main>
 
