@@ -17,8 +17,8 @@
     font-family: var(--string);
     font-size: var(--body-1);
     color: var(--gris);
-    line-height: 1.7;
-    margin: var(--h2) 0;
+    line-height: 1.5;
+    margin: var(--h3) 0;
     max-width: 850px;
     font-weight: 400;
     text-align: left;
@@ -27,13 +27,99 @@
 }
 
 .home__subtitle {
-    /* Styles du sous-titre */
+    font-family: var(--inria);
+    font-size: var(--h3);
+    color: var(--noir);
+    margin: var(--h1) 0 var(--h2) 0;
+    text-align: left;
+    font-weight: 600;
+    padding-left: 20px;
 }
 
 .home__articles-gallery {
-    /* Styles de la galerie d'articles */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--h3);
+    padding: 0 20px;
+    margin-bottom: var(--h1);
 }
 
 .home__article-card {
-    /* Styles des cartes d'article */
+    background-color: var(--beige);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0 2px 8px rgba(var(--noir), 0.1);
+}
+
+.home__article-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(var(--noir), 0.15);
+}
+
+.home__article-card a {
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.home__article-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.home__article-card:hover img {
+    transform: scale(1.05);
+}
+
+.home__article-card p {
+    padding: var(--texte-2);
+    margin: 0;
+    font-family: var(--inria);
+    font-size: var(--body-2);
+    line-height: 1.5;
+    color: var(--noir);
+}
+
+.home__article-card p:first-of-type {
+    font-weight: 700;
+    font-size: var(--body-1);
+    padding-bottom: var(--texte-3);
+}
+
+.home__article-card p:last-of-type {
+    font-family: var(--string);
+    font-size: var(--body-2);
+    color: var(--gris);
+    font-weight: 400;
+    padding-top: 0;
+}
+
+/* Carte Mary Anning - style spécial comme la maquette */
+.home__article-card--mary img {
+    height: 330px;
+    object-fit: cover;
+    object-position: center 5%;
+}
+
+
+
+/* Carte Livre - image de couverture */
+.home__article-card--book img {
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Carte Film - image de scène */
+.home__article-card--movie img {
+    height: 270px;
+    object-fit: cover;
+    object-position: center;
 }
