@@ -3,37 +3,83 @@
    ========================================================================== */
 
 .projects {
-    /* Styles du conteneur principal */
+    background: var(--blanc);
+    padding: 0 0 clamp(2rem, 5vw, 3rem);
 }
 
 .projects__header {
-    /* Styles de l'en-tête */
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .projects__title {
-    /* Styles du titre principal */
+    font-family: var(--inria);
+    font-size: var(--h2);
+    font-weight: 700;
+    color: var(--noir);
+    margin: 0;
+    line-height: 1.3;
+    padding: var(--texte-2) 20px;
+
 }
 
 .projects__grid {
-    /* Styles de la grille de cartes */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: clamp(1.5rem, 4vw, 2.5rem) 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: clamp(1.5rem, 3vw, 2rem);
 }
 
 .projects__card {
-    /* Styles des cartes de projet */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.75rem;
+    background: var(--blanc);
+    border: 2px solid var(--noir);
+    border-radius: 12px;
+    padding: clamp(1rem, 2.5vw, 1.5rem);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projects__card:hover,
+.projects__card:focus-within,
+.projects__card:active {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    background: var(--beige);
 }
 
 .projects__card-title {
-    /* Styles des titres de carte */
+    font-family: var(--inria);
+    font-size: var(--h3);
+    font-weight: 700;
+    color: var(--noir);
+    margin: 0;
+    line-height: 1.3;
 }
 
 .projects__card-link {
-    /* Styles des liens de carte */
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    aspect-ratio: 1;
 }
 
 .projects__card-image {
-    /* Styles des images de carte */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .projects__card-author {
-    /* Styles de l'auteur de carte */
+    font-family: var(--string);
+    font-size: var(--body-2);
+    color: var(--noir);
+    margin: 0;
+    line-height: 1.5;
 }
