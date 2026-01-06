@@ -3,49 +3,131 @@
    ========================================================================== */
 
 .dorset {
-    /* Styles du conteneur principal */
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .dorset__header {
-    /* Styles de l'en-tête */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--h1);
 }
 
-.dorset__hero-link {
-    /* Styles du lien de l'image hero */
+.dorset__header a {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 30vh;
+    order: -1;
 }
 
-.dorset__hero-image {
-    /* Styles de l'image hero */
+.dorset__header img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
 }
 
 .dorset__title {
-    /* Styles du titre principal */
+    font-family: var(--inria);
+    font-size: var(--h2);
+    font-weight: 700;
+    color: var(--noir);
+    margin: 0;
+    line-height: 1.3;
+    padding: var(--texte-2) 20px;
+    background-color: var(--beige);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 .dorset__meta {
-    /* Styles des métadonnées */
+    font-family: var(--string);
+    font-size: var(--body-2);
+    color: var(--gris);
+    margin: 0;
+    font-weight: 400;
+    font-style: italic;
+    padding: var(--texte-2) 20px 0;
+    max-width: 1200px;
+    margin-right: auto;
 }
 
 .dorset__intro {
-    /* Styles de l'introduction */
+    font-family: var(--string);
+    font-size: var(--body-1);
+    color: var(--noir);
+    line-height: 1.6;
+    margin: 0;
+    font-weight: 400;
+    padding: var(--texte-2) 20px var(--h2);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.dorset__fossil-section {
-    /* Styles de la section fossiles */
-}
-
+.dorset__fossil-section,
 .dorset__impact-section {
-    /* Styles de la section impact */
+    max-width: 1200px;
+    margin: 0 auto var(--h1);
+    padding: 0 20px;
 }
 
 .dorset__section-title {
-    /* Styles des titres de section */
+    font-family: var(--inria);
+    font-size: var(--h3);
+    color: var(--noir);
+    font-weight: 700;
+    margin: 0 0 var(--h2) 0;
+    text-align: left;
 }
 
 .dorset__text {
-    /* Styles des paragraphes de texte */
+    font-family: var(--string);
+    font-size: var(--body-1);
+    color: var(--noir);
+    line-height: 1.7;
+    margin: 0 0 var(--h2) 0;
+    font-weight: 400;
+    max-width: 90%;
 }
 
 .dorset__fossils-gallery {
-    /* Styles de la galerie de fossiles */
+    display: flex;
+    flex-direction: column;
+    gap: var(--h2);
+    margin-bottom: var(--h1);
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dorset__fossils-gallery figure {
+    margin: 0;
+    padding: 0;
+}
+
+.dorset__fossils-gallery a {
+    display: block;
+    overflow: hidden;
+}
+
+.dorset__fossils-gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.dorset__fossils-gallery figcaption {
+    font-family: var(--string);
+    font-size: var(--body-2);
+    color: var(--gris);
+    font-style: italic;
+    margin-top: var(--texte-3);
+    text-align: center;
 }
