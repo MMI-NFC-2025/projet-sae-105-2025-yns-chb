@@ -14,7 +14,7 @@
     margin-bottom: var(--h1);
 }
 
-.dorset__header a {
+.dorset__hero-link {
     display: block;
     overflow: hidden;
     width: 100%;
