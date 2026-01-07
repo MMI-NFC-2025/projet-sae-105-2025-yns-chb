@@ -6,5 +6,5 @@
 - NOM : Chouhib-Forster
 - PRÉNOM : Yanis
 - GROUPE : B2
-- URL du site :
-- URL FIGMA :
+- URL du site :https://empreinte.yanischouhib.fr/fr/
+- URL FIGMA :https://www.figma.com/design/4skZDOiD3aQliGonWetOs0/Maquettes-projet-individuel-%E2%80%94-Yanis-Chouhib?node-id=3701-115&t=x2JEfaPdsskV9ZkC-1
