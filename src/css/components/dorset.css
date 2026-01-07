@@ -131,3 +131,43 @@
     margin-top: var(--texte-3);
     text-align: center;
 }
+
+.dorset__fossil-items {
+    display: grid;
+    gap: clamp(1.5rem, 3vw, 2rem);
+    margin: 0 0 var(--h1);
+}
+
+.dorset__fossil-item {
+    display: grid;
+    grid-template-columns: 1fr min(220px, 40%);
+    gap: var(--texte-2);
+    align-items: start;
+}
+
+.dorset__fossil-item figure {
+    margin: 0;
+    padding: 0;
+}
+
+.dorset__fossil-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.dorset__fossil-item figcaption {
+    font-family: var(--string);
+    font-size: var(--body-2);
+    color: var(--gris);
+    font-style: italic;
+    margin-top: var(--texte-3);
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .dorset__fossil-item {
+        grid-template-columns: 1fr;
+    }
+}

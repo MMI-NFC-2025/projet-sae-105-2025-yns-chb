@@ -68,9 +68,9 @@
     <main>
         <article class="dorset">
             <header class="dorset__header">
-                <a href="/assets/img/dorset_hero.avif" class="dorset__hero-link">
+                <span class="dorset__hero-link">
                     <img src="/assets/img/dorset_hero.avif" alt="Falaise du Dorset" class="dorset__hero-image">
-                </a>
+                </span>
                 <h1 class="dorset__title">Sous les falaises du Dorset</h1>
                 <p class="dorset__meta">Par Yanis Chouhib, publié le 22 octobre 2025</p>
                 <p class="dorset__intro">À l'origine de découvertes décisives sur les reptiles marins fossiles, Mary
@@ -85,50 +85,54 @@
 
             <section class="dorset__fossil-section">
                 <h3 class="dorset__section-title dorset__section-title--fossil">Découvertes de Mary Anning</h3>
-                <p class="dorset__text">Mary Anning a réalisé plusieurs découvertes majeures dans le domaine de la
-                    paléontologie au début du XIXᵉ siècle. À seulement 12 ans, elle découvre avec son frère sur les
-                    plages du Dorset le premier squelette complet
-                    d'ichtyosaure, un reptile marin. Mais la publication scientifique est alors signée par Henry De la
-                    Beche géologue
-                    britanique qui profite de ses observations sans la mentionner. En 1823, elle met au jour le premier
-                    spécimen complet de
-                    plésiosaure, présenté à la Geological Society de Londres, par le paléontologue britanique William
-                    Conybeare qui la relègue
-                    au rôle d'amatrice. En 1828, elle identifie un ptérodactyle fossilisé, premier spécimen découvert en
-                    dehors
-                    de l'Allemagne, mais la découverte est officialisée par William Buckland un paléontologue
-                    britanique. Elle découvre
-                    également des fossiles comme les bélemnites avec leur sac d'encre fossilisés, enrichissant la
-                    compréhension de la faune
-                    marine du Jurassique. Ces recherches se concentrent sur la côte jurassique du Dorset, région
-                    particulièrement riche en
-                    fossiles vieux de 201 à 145 millions d'années. Chaque fossile est soigneusement extrait, préparé et
-                    étudié, fournissant des
-                    spécimens de qualité scientifique exceptionnelle.</p>
-
-                <div class="dorset__fossils-gallery">
-                    <figure>
-                        <a href="/assets/img/fossil_ichtyosaure.avif">
+                <div class="dorset__fossil-items">
+                    <div class="dorset__fossil-item">
+                        <div class="dorset__fossil-text">
+                            <p class="dorset__text">Mary Anning a réalisé plusieurs découvertes majeures dans le domaine
+                                de la paléontologie au début du XIXᵉ siècle. À seulement 12 ans, elle découvre avec son
+                                frère sur les plages du Dorset le premier squelette complet d'ichtyosaure, un reptile
+                                marin. La publication scientifique est alors signée par Henry De la Beche, géologue
+                                britannique qui profite de ses observations sans la mentionner.</p>
+                        </div>
+                        <figure>
                             <img src="/assets/img/fossil_ichtyosaure.avif" alt="Fossile d'Ichtyosaure" loading="lazy">
-                        </a>
-                        <figcaption>Fossile d'ichtyosaure découvert par Mary Anning en 1811</figcaption>
-                    </figure>
+                            <figcaption>Fossile d'ichtyosaure découvert par Mary Anning en 1811</figcaption>
+                        </figure>
+                    </div>
 
-                    <figure>
-                        <a href="/assets/img/fossile_plesiosaure.avif">
+                    <div class="dorset__fossil-item">
+                        <div class="dorset__fossil-text">
+                            <p class="dorset__text">En 1823, elle met au jour le premier spécimen complet de
+                                plésiosaure, présenté à la Geological Society de Londres par le paléontologue
+                                britannique William Conybeare, qui la relègue au rôle d'amatrice malgré son expertise.
+                            </p>
+                        </div>
+                        <figure>
                             <img src="/assets/img/fossile_plesiosaure.avif" alt="Fossile de Plésiosaure" loading="lazy">
-                        </a>
-                        <figcaption>Fossile de plésiosaure découvert par Mary Anning en 1823</figcaption>
-                    </figure>
+                            <figcaption>Fossile de plésiosaure découvert par Mary Anning en 1823</figcaption>
+                        </figure>
+                    </div>
 
-                    <figure>
-                        <a href="/assets/img/fossile_ptérodactyle.avif">
+                    <div class="dorset__fossil-item">
+                        <div class="dorset__fossil-text">
+                            <p class="dorset__text">En 1828, elle identifie un ptérodactyle fossilisé, premier spécimen
+                                découvert en dehors de l'Allemagne, mais la découverte est officialisée par le
+                                paléontologue William Buckland.</p>
+                        </div>
+                        <figure>
                             <img src="/assets/img/fossile_ptérodactyle.avif" alt="Fossile de Ptérodactyle"
                                 loading="lazy">
-                        </a>
-                        <figcaption>Fossile de ptérodactyle découvert par Mary Anning en 1828</figcaption>
-                    </figure>
+                            <figcaption>Fossile de ptérodactyle découvert par Mary Anning en 1828</figcaption>
+                        </figure>
+                    </div>
                 </div>
+
+                <p class="dorset__text">Elle découvre également des fossiles comme les <a href="/fr/glossaire.html"
+                        style="text-decoration: underline;">bélemnites</a> avec leur sac d'encre
+                    fossilisés, enrichissant la compréhension de la faune marine du Jurassique. Ces recherches se
+                    concentrent sur la côte jurassique du Dorset, région particulièrement riche en fossiles vieux de 201
+                    à 145 millions d'années. Chaque fossile est soigneusement extrait, préparé et étudié, fournissant
+                    des spécimens de qualité scientifique exceptionnelle.</p>
             </section>
 
             <section class="dorset__impact-section">
@@ -138,10 +142,13 @@
                     de l'histoire
                     naturelle.
                     Elles ont
-                    apporté des preuves solides de l'extinction d'espèces, remettant en cause la croyance en une
+                    apporté des preuves solides de <a href="/fr/glossaire.html"
+                        style="text-decoration: underline;">l'extinction d'espèces</a>, remettant en cause la croyance
+                    en une
                     création
                     immuable des êtres
-                    vivants. Les fossiles ont soutenu les recherches de Georges Cuvier sur l'extinction des espèces et
+                    vivants. Les fossiles ont soutenu les recherches de Georges Cuvier sur <a
+                        href="/fr/glossaire.html" style="text-decoration: underline;">l'extinction des espèces</a> et
                     ont
                     contribué à faire
                     de la paléontologie une discipline scientifique rigoureuse. Ils ont également permis de mieux
@@ -196,15 +203,15 @@
         </div>
 
         <div class="footer-social">
-            <a href="/assets/icons/Instagram.svg">
+            <span>
                 <img src="/assets/icons/Instagram.svg" alt="Instagram">
-            </a>
-            <a href="/assets/icons/tiktok.svg">
+            </span>
+            <span>
                 <img src="/assets/icons/tiktok.svg" alt="TikTok">
-            </a>
-            <a href="/assets/icons/facebook.svg">
+            </span>
+            <span>
                 <img src="/assets/icons/facebook.svg" alt="Facebook">
-            </a>
+            </span>
         </div>
 
         <div class="footer-info">
