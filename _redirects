@@ -1,2 +1,84 @@
+# Redirections pour projet-sae-105-2025-yns-chb
+# [ancienne URL] [nouvelle URL] [code HTTP]
+
+# Rediriger la racine vers la page d'accueil française
+/    /fr/index.html    301
+
+# Rediriger /fr vers la page d'accueil française
+/fr    /fr/index.html    301
+
+# Rediriger /en vers la page d'accueil anglaise
+/en    /en/homepage.html    301
+
+# Rediriger /contact vers la page de contact FR
+/contact    /fr/contact.html    301
+
+# Rediriger /about vers la page à propos FR
+/about    /fr/a_propos.html    301
+
+# Rediriger /book vers la page livre FR
+/book    /fr/livre.html    301
+
+# Rediriger /mary-anning vers la page Mary Anning FR
+/mary-anning    /fr/Mary_Anning.html    301
+
+# Rediriger /dorset vers la page falaise du Dorset FR
+/dorset    /fr/falaise_du_dorset.html    301
+
+# Rediriger /film vers la page film FR
+/film    /fr/film.html    301
+
+# Rediriger /glossaire vers la page glossaire FR
+/glossaire    /fr/glossaire.html    301
+
+# Rediriger /autres-projets vers la page autres projets FR
+/autres-projets    /fr/autres_projets.html    301
+
+# Rediriger /women-and-knowledge vers la page femmes et savoir FR
+/women-and-knowledge    /fr/femmes_et_savoir.html    301
+
+# Rediriger /homepage vers la page d'accueil EN
+/homepage    /en/homepage.html    301
+
+# Rediriger /contact-en vers la page de contact EN
+/contact-en    /en/contact_en.html    301
+
+# Rediriger /about-en vers la page about EN
+/about-en    /en/about.html    301
+
+# Rediriger /book-en vers la page book EN
+/book-en    /en/Book.html    301
+
+# Rediriger /mary-anning-en vers la page Mary Anning EN
+/mary-anning-en    /en/Mary_anning_en.html    301
+
+# Rediriger /cliffs-of-dorset vers la page cliffs of Dorset EN
+/cliffs-of-dorset    /en/cliffs_of_dorset.html    301
+
+# Rediriger /moovie vers la page moovie EN
+/moovie    /en/moovie.html    301
+
+# Rediriger /glossary vers la page glossary EN
+/glossary    /en/glossary.html    301
+
+# Rediriger /other-projects vers la page other projects EN
+/other-projects    /en/other_projects.html    301
+
+# Rediriger /women-and-knowledge-en vers la page women and knowledge EN
+/women-and-knowledge-en    /en/women_and_knowledge.html    301
+
+# Fallback : toute URL non trouvée vers la page d'accueil française
+/*    /fr/index.html    404
+# Exemple de redirections pour Netlify ou hébergement statique
+# [ancienne URL] [nouvelle URL] [code HTTP]
+
+# Rediriger l’ancienne page d’accueil vers la nouvelle
+/accueil    /fr/index.html    301
+
+# Rediriger toute URL non trouvée vers la page d’accueil française
+/*    /fr/index.html    404
+
+# Rediriger la racine anglaise vers la page d’accueil anglaise
+/en    /en/homepage.html    301
 / /fr/ 302! Language=fr
 / /en/ 302! Language=en
