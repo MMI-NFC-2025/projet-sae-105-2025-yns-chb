@@ -37,9 +37,9 @@
     color: var(--noir);
     margin: 0;
     line-height: 1.3;
-    padding: var(--texte-2) 20px;
+    padding: var(--texte-2) 1.25rem;
     background-color: var(--beige);
-    max-width: 1200px;
+    max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -52,8 +52,8 @@
     margin: 0;
     font-weight: 400;
     font-style: italic;
-    padding: var(--texte-2) 20px 0;
-    max-width: 1200px;
+    padding: var(--texte-2) 1.25rem 0;
+    max-width: 75rem;
     margin-right: auto;
 }
 
@@ -64,17 +64,17 @@
     line-height: 1.6;
     margin: 0;
     font-weight: 400;
-    padding: var(--texte-2) 20px var(--h2);
-    max-width: 1200px;
+    padding: var(--texte-2) 1.25rem var(--h2);
+    max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
 }
 
 .dorset__fossil-section,
 .dorset__impact-section {
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto var(--h1);
-    padding: 0 20px;
+    padding: 0 1.25rem;
 }
 
 .dorset__section-title {
@@ -101,7 +101,7 @@
     flex-direction: column;
     gap: var(--h2);
     margin-bottom: var(--h1);
-    max-width: 380px;
+    max-width: 23.75rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -140,7 +140,7 @@
 
 .dorset__fossil-item {
     display: grid;
-    grid-template-columns: 1fr min(220px, 40%);
+    grid-template-columns: 1fr min(13.75rem, 40%);
     gap: var(--texte-2);
     align-items: start;
 }

@@ -35,9 +35,9 @@
     color: var(--noir);
     margin: 0;
     line-height: 1.3;
-    padding: var(--texte-2) 20px;
+    padding: var(--texte-2) 1.25rem;
     background-color: var(--beige);
-    max-width: 1200px;
+    max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -50,26 +50,31 @@
     margin: 0;
     font-weight: 400;
     font-style: italic;
-    padding: var(--texte-2) 20px 0;
-    max-width: 1200px;
+    padding: var(--texte-2) 1.25rem 0;
+    max-width: 75rem;
     margin-right: auto;
 }
 
 .book__intro {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: var(--texte-2) 20px var(--h2);
+    font-family: var(--string);
     font-size: var(--body-1);
+    color: var(--noir);
     line-height: 1.6;
+    margin: 0;
+    font-weight: 400;
+    padding: var(--texte-2) 1.25rem var(--h2);
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .book__summary,
 .book__links,
 .book__excerpt,
 .book-excerpt {
-    max-width: 1200px;
+    max-width: 75rem;
     margin: var(--h1) auto 0;
-    padding: 0 20px;
+    padding: 0 1.25rem;
 }
 
 .book__section-title {
@@ -92,7 +97,7 @@
 .book__summary figure,
 .book__links figure {
     margin: var(--h2) 0 var(--h2) 0;
-    max-width: 380px;
+    max-width: 23.75rem;
     margin-left: auto;
     margin-right: auto;
 }

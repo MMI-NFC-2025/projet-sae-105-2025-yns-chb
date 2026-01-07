@@ -21,7 +21,7 @@ footer {
 
 
 .footer-logo a:last-child img {
-    margin-top: 15px;
+    margin-top: 0.9375rem;
 }
 
 /* Menu footer */
@@ -97,8 +97,8 @@ footer {
 }
 
 .footer-social img {
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 /* Informations footer */
@@ -131,12 +131,12 @@ footer {
     }
 
     .footer-logo a:first-child img {
-        width: 70px;
-        height: 70px;
+        width: 4.375rem;
+        height: 4.375rem;
     }
 
     .footer-logo a:last-child img {
-        height: 55px;
+        height: 3.4375rem;
     }
 }
 

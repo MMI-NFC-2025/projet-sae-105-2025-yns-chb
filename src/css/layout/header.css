@@ -23,11 +23,11 @@ body>header {
 }
 
 .header__brand a:first-child img {
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .header__brand a:last-child img {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 /* Conteneur des contrôles à droite */
@@ -44,7 +44,7 @@ body>header {
     background-color: var(--blanc);
     border: none;
     padding: 0.2rem 0.4rem;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     font-family: var(--string);
     font-size: 1rem;
     text-decoration: none;
@@ -52,7 +52,7 @@ body>header {
     display: inline-flex;
     align-items: center;
     gap: 0.25rem;
-    margin-top: 5px;
+    margin-top: 0.3125rem;
 
 }
 

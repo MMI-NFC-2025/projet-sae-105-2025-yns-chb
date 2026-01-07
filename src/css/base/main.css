@@ -28,13 +28,13 @@ h1 {
     list-style: none !important;
     list-style-type: none !important;
 }
-    
+
 h2 {
     letter-spacing: -0.04rem;
     color: var(--noir);
     font-size: var(--h2);
 }
-    
+
 h3 {
     letter-spacing: -0.03rem;
     color: var(--noir);
@@ -59,11 +59,11 @@ textarea {
 /* Pour rendre invisible mais laisser accessible */
 .u-sr-only {
     position: absolute !important;
-    inline-size: 1px;
+    inline-size: 0.0625rem;
     /* width logique */
-    block-size: 1px;
+    block-size: 0.0625rem;
     /* height logique */
-    margin: -1px;
+    margin: -0.0625rem;
     padding: 0;
     overflow: hidden;
     white-space: nowrap;
@@ -92,4 +92,3 @@ li {
     padding: 0;
     margin: 0;
 }
-
