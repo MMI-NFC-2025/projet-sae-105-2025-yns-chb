@@ -90,10 +90,10 @@
 }
 
 .women-knowledge__scientist-name {
-    font-family: var(--inria);
+    font-family: var(--string);
     font-size: var(--h3);
     color: var(--noir);
-    font-weight: 700;
+    font-weight: 500;
     margin: 0 0 0.5rem 0;
 }
 

@@ -37,11 +37,11 @@
 
 }
 
-.glossary__section h3 {
-    font-family: var(--inria);
+.glossary__section h2 {
+    font-family: var(--string);
     font-size: var(--h3);
     color: var(--noir);
-    font-weight: 700;
+    font-weight: 500;
     margin: 0 0 0.5rem 0;
     margin-top: var(--h1);
 

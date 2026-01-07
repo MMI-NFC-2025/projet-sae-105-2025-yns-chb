@@ -109,10 +109,10 @@
 }
 
 .movies__section-title {
-    font-family: var(--inria);
+    font-family: var(--string);
     font-size: var(--h3);
     color: var(--noir);
-    font-weight: 700;
+    font-weight: 500;
     margin: 0 0 0.5rem 0;
 }
 
@@ -179,17 +179,11 @@
 }
 
 .movies__film-card {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
+    background: var(--beige);
+    /* au lieu de le mettre sur les sous-blocs */
     border-radius: 0.875rem;
     overflow: hidden;
     box-shadow: 0 0.625rem 1.875rem color-mix(in srgb, var(--noir) 10%, transparent);
-    background: var(--blanc);
-    width: 100%;
-    max-width: none;
-    margin: 0;
-    scroll-snap-align: center;
 }
 
 .movies__film-card a {
@@ -217,7 +211,7 @@
     font-family: var(--string);
     font-size: var(--body-3);
     color: var(--noir);
-    line-height: 1.7;
+    line-height: 1.5;
     margin: 0;
     background: var(--beige);
     padding: 0.5rem 0.9rem 0.9rem;

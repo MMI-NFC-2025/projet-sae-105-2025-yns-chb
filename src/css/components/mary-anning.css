@@ -102,6 +102,7 @@
     height: auto;
     display: block;
     object-fit: cover;
+    margin-top: 70px;
 }
 
 .mary-anning__biography figcaption {
@@ -111,16 +112,17 @@
     font-style: italic;
     margin-top: var(--texte-3);
     text-align: center;
+    margin-bottom: 60px;
 
 }
 
 .mary-anning__other-title {
-    font-family: var(--inria);
+    font-family: var(--string);
     font-size: var(--h3);
     color: var(--noir);
-    font-weight: 700;
-    text-align: left;
+    font-weight: 500;
     margin: var(--h1) 0 var(--h2) 0;
+    margin-left: 10px;
 }
 
 .mary-anning__other-scientists {
@@ -190,27 +192,27 @@
 
 .mary-anning__scientist-item:nth-child(1)::before {
     background-color: var(--rouge);
-    right: -1.875rem;
+    right: -1.6rem;
 }
 
 .mary-anning__scientist-item:nth-child(2)::before {
     background-color: var(--orange);
-    left: -1.875rem;
+    left: -1.6rem;
 }
 
 .mary-anning__scientist-item:nth-child(3)::before {
     background-color: var(--pomme);
-    right: -1.875rem;
+    right: -1.6rem;
 }
 
 .mary-anning__scientist-item:nth-child(4)::before {
     background-color: var(--cyan);
-    left: -1.875rem;
+    left: -1.6rem;
 }
 
 .mary-anning__scientist-item:nth-child(5)::before {
     background-color: var(--bleu);
-    right: -1.875rem;
+    right: -1.6rem;
 }
 
 .mary-anning__scientist-item a {
